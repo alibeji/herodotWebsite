@@ -1,0 +1,111 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700&display=swap');
+// animate.css lib
+@import 'animate';
+// Variables
+@import 'variables';
+// Helpers
+@import 'helpers';
+// Dependencies
+@import '~bootstrap/scss/bootstrap';
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+html{
+  font-size: calc(0.7em + 1vw);
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+  font-feature-settings: 'pnum' on, 'lnum' on; 
+  letter-spacing: 0.1em;
+  color: white;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Raleway', sans-serif;
+  color: $primary;
+}
+h1{
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+}
+h2{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+}
+h3{
+  font-size: .8rem;
+  text-transform: uppercase;
+  color: $dust;
+}
+
+p{
+  font-size: 0.6rem;
+  color: $primary;
+}
+
+.btn{
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  background-color: white;
+  background: linear-gradient(to right, $primary 51%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition:all 0.3s ease;
+
+  color: $primary;
+  border-radius: 0;
+  border: 1px solid $primary;
+  //border-left: 3px solid $primary;
+  &:hover{
+    background-position: left bottom;
+    color: white;
+  }
+}
+
+.social-media-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  fill: $primary;
+  border: 3px solid $primary;
+  border-radius: 50%;
+
+  cursor: pointer;
+
+  background: radial-gradient($primary 50%, white 50%);
+  background-size: 0 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-size: 200% 200%;
+    fill: white;
+  }
+}
+
+
+.main-input{
+  background: #fff;
+  height: 50px;
+  width: 280px;
+  color:#26272c;
+  text-shadow: 0 0 1px #aaa;
+  vertical-align: middle;
+  border: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+// Fix
+.gb-vue-timeline-update__left, .gb-vue-timeline-update__ago{
+  display: none!important;
+}

@@ -1,0 +1,26 @@
+// Typography
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Chart Colors:
+$blue: #213152;
+$sky: #3190AA;
+$grey: #E1E1D9;
+$snow: #FBFBFB;
+
+$dust: #c4ac8c;
+$gold: #bc8e28;
+$crimson: #9d1431;
+$cyan: #9ea4b7;
+$asphalt: #4f515b;
+$dark: #26272d;
+
+$primary: $blue;
+$secondary: $sky;
+$fade: $grey;
+
+// Body
+$body-bg: $dark;
+
+// grad
+$main-grad: linear-gradient(0.25turn, $gold, $dust, $gold);
