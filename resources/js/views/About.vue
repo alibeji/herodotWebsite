@@ -49,7 +49,7 @@
       </div>
       <p class="d-block">Here’s who joined the history-meets-future team to make it all happen:</p>
       <div class="row text-center mt-5">
-        <div class="col-6 col-md-3">
+        <div class="col-6 col-md-4">
           <team-member
             name="Youssef Boufaied"
             image="/photos/team/yb.jpg"
@@ -58,7 +58,7 @@
             linkedin-username="youssef-boufaied-9ab802ab"
           ></team-member>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-6 col-md-4">
           <team-member
             name="Mustapha Gharbi"
             image="/photos/team/mg.jpg"
@@ -67,7 +67,7 @@
             linkedin-username="mustapha-gharbi-069299113"
           ></team-member>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-6 col-md-4">
           <team-member
             name="Alaeddine Bouker"
             image="/photos/team/ab.jpg"
@@ -76,7 +76,7 @@
             linkedin-username="bouker-alaeddine-94aa2893"
           ></team-member>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-6 col-md-4">
           <team-member
             name="Marouan Sami"
             image="/photos/team/ms.jpg"
@@ -85,7 +85,7 @@
             linkedin-username="marouan-sami-757a5098"
           ></team-member>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-6 col-md-4">
           <team-member
             name="M. Habib Bouassida"
             image="/photos/team/mhb.jpg"
@@ -94,7 +94,7 @@
             linkedin-username="mohamed-habib-bouassida-317609181"
           ></team-member>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-6 col-md-4">
           <team-member
             name="Ali Beji"
             image="/photos/team/ab_bis.jpg"
@@ -103,7 +103,7 @@
             linkedin-username="ali-beji"
           ></team-member>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-6 col-md-4">
           <team-member
             name="Wael Chettaoui"
             image="/photos/team/wc.jpg"
@@ -112,13 +112,22 @@
             linkedin-username="wael-chettaoui-260688168"
           ></team-member>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-6 col-md-4">
           <team-member
             name="Firas Khemiri"
             image="/photos/team/fk.jpg"
             position="Game Dev"
             quote="Digital Overlord"
             linkedin-username="firas-kh"
+          ></team-member>
+        </div>
+        <div class="col-6 col-md-4">
+          <team-member
+            name="Raed Hsasna"
+            image="/photos/team/rh.jpg"
+            position="Copywriter"
+            quote="Warden of the Scrolls"
+            linkedin-username="raed-hsasna-577867108"
           ></team-member>
         </div>
       </div>

@@ -10800,6 +10800,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -75277,7 +75286,7 @@ var render = function() {
         _c("div", { staticClass: "row text-center mt-5" }, [
           _c(
             "div",
-            { staticClass: "col-6 col-md-3" },
+            { staticClass: "col-6 col-md-4" },
             [
               _c("team-member", {
                 attrs: {
@@ -75294,7 +75303,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-6 col-md-3" },
+            { staticClass: "col-6 col-md-4" },
             [
               _c("team-member", {
                 attrs: {
@@ -75311,7 +75320,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-6 col-md-3" },
+            { staticClass: "col-6 col-md-4" },
             [
               _c("team-member", {
                 attrs: {
@@ -75328,7 +75337,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-6 col-md-3" },
+            { staticClass: "col-6 col-md-4" },
             [
               _c("team-member", {
                 attrs: {
@@ -75345,7 +75354,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-6 col-md-3" },
+            { staticClass: "col-6 col-md-4" },
             [
               _c("team-member", {
                 attrs: {
@@ -75362,7 +75371,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-6 col-md-3" },
+            { staticClass: "col-6 col-md-4" },
             [
               _c("team-member", {
                 attrs: {
@@ -75379,7 +75388,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-6 col-md-3" },
+            { staticClass: "col-6 col-md-4" },
             [
               _c("team-member", {
                 attrs: {
@@ -75396,7 +75405,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-6 col-md-3" },
+            { staticClass: "col-6 col-md-4" },
             [
               _c("team-member", {
                 attrs: {
@@ -75405,6 +75414,23 @@ var render = function() {
                   position: "Game Dev",
                   quote: "Digital Overlord",
                   "linkedin-username": "firas-kh"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-6 col-md-4" },
+            [
+              _c("team-member", {
+                attrs: {
+                  name: "Raed Hsasna",
+                  image: "/photos/team/rh.jpg",
+                  position: "Copywriter",
+                  quote: "Warden of the Scrolls",
+                  "linkedin-username": "raed-hsasna-577867108"
                 }
               })
             ],
