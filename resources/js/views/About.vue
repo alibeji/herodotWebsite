@@ -141,8 +141,8 @@ margin-right: 60px;"></scroll-icone>
             <h1>They Trust us</h1>
           </vue-aos>
           <p>
-            Having partners support you as a startup is not an easy feat.
-            Here’s the set of supporters that we take pride in calling them partners.
+            Winning partners’ support as a startup is a fundamental pillar of success, and it’s not an easy feat.
+            <br />Here's who we take pride in calling them partners.
           </p>
         </div>
       </div>
