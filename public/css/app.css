@@ -7926,7 +7926,7 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #26272d;
+  background-color: white;
 }
 
 [tabindex="-1"]:focus {
@@ -8371,7 +8371,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #26272d;
+  background-color: white;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -11949,15 +11949,15 @@ input[type=button].btn-block {
 }
 
 .custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #26272d, 0 0 0 0.2rem rgba(33, 49, 82, 0.25);
+  box-shadow: 0 0 0 1px white, 0 0 0 0.2rem rgba(33, 49, 82, 0.25);
 }
 
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #26272d, 0 0 0 0.2rem rgba(33, 49, 82, 0.25);
+  box-shadow: 0 0 0 1px white, 0 0 0 0.2rem rgba(33, 49, 82, 0.25);
 }
 
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #26272d, 0 0 0 0.2rem rgba(33, 49, 82, 0.25);
+  box-shadow: 0 0 0 1px white, 0 0 0 0.2rem rgba(33, 49, 82, 0.25);
 }
 
 .custom-range::-moz-focus-outer {
@@ -12157,8 +12157,8 @@ input[type=button].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #26272d;
-  border-color: #dee2e6 #dee2e6 #26272d;
+  background-color: white;
+  border-color: #dee2e6 #dee2e6 white;
 }
 
 .nav-tabs .dropdown-menu {
@@ -18576,6 +18576,18 @@ p {
   color: white;
 }
 
+.btn-primary {
+  background-color: #213152;
+  background: linear-gradient(to right, white 51%, #213152 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  color: white;
+}
+
+.btn-primary:hover {
+  color: #213152;
+}
+
 .social-media-icon {
   height: 2.5rem;
   width: 2.5rem;
@@ -18612,5 +18624,45 @@ p {
 .gb-vue-timeline-update__left,
 .gb-vue-timeline-update__ago {
   display: none !important;
+}
+
+[class^=gb-]:not(.gb-base-icon) {
+  font-family: "Raleway", sans-serif !important;
+}
+
+.gb-base-badge--light.gb-base-badge--custom-1.gb-base-badge--filled {
+  background: #50b6bf !important;
+}
+
+.gb-base-number--light.gb-base-number--custom-1,
+.gb-base-badge--light.gb-base-badge--custom-1 {
+  border-color: #50b6bf !important;
+}
+
+.gb-base-badge--light.gb-base-badge--custom-2.gb-base-badge--filled {
+  background: #3190aa !important;
+}
+
+.gb-base-number--light.gb-base-number--custom-2,
+.gb-base-badge--light.gb-base-badge--custom-2 {
+  border-color: #3190aa !important;
+}
+
+.gb-base-badge--light.gb-base-badge--custom-3.gb-base-badge--filled {
+  background: #0c1d48 !important;
+}
+
+.gb-base-number--light.gb-base-number--custom-3,
+.gb-base-badge--light.gb-base-badge--custom-3 {
+  border-color: #0c1d48 !important;
+}
+
+.gb-base-badge--light.gb-base-badge--custom-4.gb-base-badge--filled {
+  background: #332354 !important;
+}
+
+.gb-base-number--light.gb-base-number--custom-4,
+.gb-base-badge--light.gb-base-badge--custom-4 {
+  border-color: #332354 !important;
 }
 

@@ -5,7 +5,7 @@
     </div>
     <p class="text-center">Herodot team here displays its inquiries</p>
     <loader :is-loading="!loaded"></loader>
-    <div class="row pb-5">
+    <div class="row pb-5" v-if="posts.length">
       <template v-for="post in posts">
         <div class="col-12 col-md-6 mt-2" :key="post.id">
           <vue-aos animation-class="zoomIn animated">
@@ -14,6 +14,9 @@
         </div>
       </template>
     </div>
+    <div class="row" v-else>
+      <blog-coming-soon></blog-coming-soon>
+    </div>
   </div>
 </template>
 
@@ -21,15 +24,16 @@
 import Loader from "../../components/Loader";
 import FetchCMSDataMixin from "../../mixins/FetchCMSDataMixin";
 
+import BlogComingSoon from "../../components/BlogComingSoon";
 import BlogSnippet from "../../components/BlogSnippet";
 
 export default {
   name: "BlogHome",
-  components: { Loader, BlogSnippet },
+  components: { Loader, BlogComingSoon, BlogSnippet },
   mixins: [FetchCMSDataMixin],
   data() {
     return {
-      posts: null,
+      posts: [],
       target: "/posts"
     };
   },

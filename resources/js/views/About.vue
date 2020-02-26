@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="jumbotron mb-0" id="jumbotron">
+    <section class="jumbotron mb-0" id="jumbotron" ref="jumbotron">
       <div class="col jumbotron-body d-flex flex-column justify-content-center">
         <div>
           <h1 class="col-6 mr-auto ml-auto text-center mb-4">Our Manifesto</h1>
@@ -17,9 +17,11 @@
           </p>
         </vue-aos>
       </div>
-      <scroll-icone href="#team"></scroll-icone>
+      <scroll-icone href="#team" style="position: relative;
+height: 5rem;
+margin-right: 60px;"></scroll-icone>
     </section>
-    <section class="container-fluid" id="team" ref="after-jumbotron">
+    <section class="container-fluid" id="team">
       <div class="row">
         <div class="col-12 col-md-7" id="team-background"></div>
         <div class="col-12 col-md-5 p-3 mt-5 mb-5">
@@ -41,7 +43,7 @@
         </div>
       </div>
     </section>
-    <section class="container-fluid bg-white p-3" id="team-member">
+    <section class="container-fluid bg-white p-3 mt-5 mb-5" id="team-member">
       <div class="row">
         <vue-aos animation-class="fadeInLeft animated">
           <h1>The team</h1>
@@ -132,16 +134,18 @@
         </div>
       </div>
     </section>
-    <section class="container-fluid bg-white p-3">
-      <div class="row">
-        <vue-aos animation-class="fadeInLeft animated">
-          <h1>They Trust us</h1>
-        </vue-aos>
+    <section class="container-fluid bg-white p-3 mt-5 mb-5">
+      <div class="row partners-title-container">
+        <div class="col-md-7">
+          <vue-aos animation-class="fadeInLeft animated">
+            <h1>They Trust us</h1>
+          </vue-aos>
+          <p>
+            Having partners support you as a startup is not an easy feat.
+            Here’s the set of supporters that we take pride in calling them partners.
+          </p>
+        </div>
       </div>
-      <p>
-        Having partners support you as a startup is not an easy feat.
-        Here’s the set of supporters that we take pride in calling them partners.
-      </p>
       <partner
         name="Moovjee"
         image="/photos/partners/moovjee-logo.png"
@@ -235,16 +239,18 @@ h1 {
   }
 }
 .jumbotron {
-  background: url("../../../public/jumbotron-background-shattered.png")
+  background: url("../../../public/jumbotron-background-shattered.jpg")
     no-repeat;
   background-size: cover;
   height: 100vh;
   position: relative;
+  border-radius: 0px;
   .jumbotron-body {
     height: 100%;
     z-index: 100;
     h1 {
       border: none;
+      border-bottom: 2px solid $grey;
       color: white;
       &:after {
         display: none;
@@ -254,11 +260,15 @@ h1 {
       padding: 1rem;
     }
     .manifesto-text {
-      font-weight: 900;
-      text-shadow: 2px 1.5px 0px rgba(100, 100, 100, 0.5);
       color: white;
       font-size: 0.8rem;
     }
   }
+}
+.partners-title-container {
+  background-image: url("../../../public/ui/misc/column.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
 }
 </style>

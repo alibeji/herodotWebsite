@@ -2,17 +2,16 @@
   <div>
     <nav
       class="navbar navbar-expand-md"
-      :class="[stayTop ?'secondary-theme':'fixed-top']"
+      :class="[stayTop ?'secondary-theme':'fixed-top', onFirstSection?'':'secondary-theme']"
       ref="navbar"
     >
       <div class="navbar-brand">
         <router-link to="/">
-          <template v-if="!isMobile">
+          <template v-if="!isMobile && !onFirstSection">
             <img
               src="../../../public/herodot-logo.svg"
               class="herodot-logo"
               alt="Herodot Studio logo"
-              height="100"
             />
           </template>
           <template v-else>
@@ -57,6 +56,7 @@
 <script>
 export default {
   name: "LandingNavbar",
+  props: { onFirstSection: Boolean },
   computed: {
     stayTop: function() {
       return this.$route.meta.navStayTop;
@@ -87,42 +87,51 @@ export default {
 
 <style type="text/scss" lang="scss" scoped>
 @import "~@/_variables.scss";
-.secondary-theme {
-  background-color: $primary;
-  border-bottom: 2px solid darken($primary, 20%);
-}
 .navbar {
   width: 100%;
   z-index: 9999;
-  height: 3rem;
-  .logo {
-    height: 2.5rem;
-  }
-  .navbar-nav {
-    width: 100%;
-    justify-content: right;
+  transition: background-color 0.2s ease-out, border 0.2s ease-out;
+  .herodot-logo {
+    height: 1.5rem;
   }
   .nav-link {
-    width: calc(100% / 5);
     padding-bottom: 0;
-
     text-transform: uppercase;
     text-align: center;
+    transition: border 0.3s ease-out;
     &:hover {
-      border-bottom: 3px solid rgba(255, 255, 255, 0.7);
+      border-bottom: 4px solid rgba(255, 255, 255, 0.7);
+      a {
+        color: white;
+      }
     }
-
     &.active {
       border-bottom: 4px solid #e0dddd;
-      text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7);
+      a {
+        color: white;
+      }
     }
     a {
-      color: #eee;
+      color: rgba(255, 255, 255, 0.7);
       &:hover {
         color: #fff;
         text-decoration: none;
-        text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7);
       }
+    }
+  }
+}
+.secondary-theme {
+  background-color: $primary;
+  border-bottom: 2px solid darken($primary, 5%);
+  .nav-link {
+    padding: 0.3rem;
+    border-radius: 5px;
+    margin-right: 0.1rem;
+    margin-left: 0.1rem;
+    &.active,
+    &:hover {
+      border-bottom: none;
+      background: darken($primary, 4%);
     }
   }
 }
