@@ -6,13 +6,25 @@
       <br />And good things? Are worth the wait.
       <br />Inquiries forthcoming.
     </p>
+    <div v-if="showCta">
+      <button
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#newsletter-modal"
+      >SEEK TO INQUEST</button>
+    </div>
   </div>
 </template>
 
 <script>
 const readingTime = require("reading-time");
 export default {
-  name: "BlogComingSoon"
+  name: "BlogComingSoon",
+  props: {
+    showCta: {
+      default: false
+    }
+  }
 };
 </script>
 

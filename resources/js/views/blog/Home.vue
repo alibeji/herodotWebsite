@@ -15,8 +15,9 @@
       </template>
     </div>
     <div class="row" v-else>
-      <blog-coming-soon></blog-coming-soon>
+      <blog-coming-soon :show-cta="true"></blog-coming-soon>
     </div>
+    <newsletter-modal></newsletter-modal>
   </div>
 </template>
 
@@ -27,9 +28,11 @@ import FetchCMSDataMixin from "../../mixins/FetchCMSDataMixin";
 import BlogComingSoon from "../../components/BlogComingSoon";
 import BlogSnippet from "../../components/BlogSnippet";
 
+import NewsletterModal from "../../components/NewsletterModal";
+
 export default {
   name: "BlogHome",
-  components: { Loader, BlogComingSoon, BlogSnippet },
+  components: { Loader, BlogComingSoon, BlogSnippet, NewsletterModal },
   mixins: [FetchCMSDataMixin],
   data() {
     return {
