@@ -62,10 +62,19 @@ p{
   color: $primary;
   border-radius: 0;
   border: 1px solid $primary;
-  //border-left: 3px solid $primary;
   &:hover{
     background-position: left bottom;
     color: white;
+  }
+}
+.btn-primary{
+  background-color: $primary;
+  background: linear-gradient(to right, white 51%, $primary 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  color: white;
+  &:hover{
+    color: $primary;
   }
 }
 
@@ -105,7 +114,34 @@ p{
   font-weight: bold;
 }
 
-// Fix
+// Overriding timeline css
 .gb-vue-timeline-update__left, .gb-vue-timeline-update__ago{
   display: none!important;
+}
+[class^="gb-"]:not(.gb-base-icon) {
+  font-family: 'Raleway', sans-serif!important;
+}
+.gb-base-badge--light.gb-base-badge--custom-1.gb-base-badge--filled{
+  background: #50b6bf!important;
+}
+.gb-base-number--light.gb-base-number--custom-1, .gb-base-badge--light.gb-base-badge--custom-1{
+  border-color: #50b6bf!important;
+}
+.gb-base-badge--light.gb-base-badge--custom-2.gb-base-badge--filled{
+  background: #3190aa!important;
+}
+.gb-base-number--light.gb-base-number--custom-2, .gb-base-badge--light.gb-base-badge--custom-2{
+  border-color: #3190aa!important;
+}
+.gb-base-badge--light.gb-base-badge--custom-3.gb-base-badge--filled{
+  background: #0c1d48!important;
+}
+.gb-base-number--light.gb-base-number--custom-3, .gb-base-badge--light.gb-base-badge--custom-3{
+  border-color: #0c1d48!important;
+}
+.gb-base-badge--light.gb-base-badge--custom-4.gb-base-badge--filled{
+  background: #332354!important;
+}
+.gb-base-number--light.gb-base-number--custom-4,.gb-base-badge--light.gb-base-badge--custom-4{
+  border-color: #332354!important;
 }

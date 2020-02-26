@@ -1,6 +1,6 @@
 <template>
   <div>
-    <LandingNavbar ref="navbar"></LandingNavbar>
+    <LandingNavbar ref="navbar" :on-first-section="onFirstSection"></LandingNavbar>
     <main>
       <transition name="none">
         <router-view ref="page"></router-view>
@@ -23,12 +23,13 @@ export default {
   mixins: [AuthMixin],
   data: function() {
     return {
-      handleDebouncedScroll: debounce(this.handleScroll, 10)
+      handleDebouncedScroll: debounce(this.handleScroll, 10),
+      onFirstSection: true
     };
   },
   computed: {
     hasJumbotronElement: function() {
-      return this.$route.meta.hasJumbotronElement === true ? true : false;
+      return this.$route.meta.hasJumbotronElement === true;
     }
   },
   watch: {
@@ -38,6 +39,7 @@ export default {
       } else {
         window.removeEventListener("scroll", this.handleDebouncedScroll);
       }
+      $(".collapse").collapse("hide");
     }
   },
   created() {
@@ -51,16 +53,15 @@ export default {
   },
   methods: {
     handleScroll(event) {
-      let afterJumbotronElement = this.$refs.page.$refs["after-jumbotron"];
+      let jumbotronElement = this.$refs.page.$refs["jumbotron"];
+      let jumbotronBottomPosition = jumbotronElement.getBoundingClientRect()
+        .bottom;
       let navbarElement = this.$refs.navbar.$refs.navbar;
-      let jumbotronBottomPosition = afterJumbotronElement.getBoundingClientRect()
-        .top;
-      if (
-        jumbotronBottomPosition < navbarElement.getBoundingClientRect().bottom
-      ) {
-        navbarElement.classList.add("bg-primary");
+      let navbarTopPosition = navbarElement.getBoundingClientRect().bottom;
+      if (jumbotronBottomPosition < navbarTopPosition) {
+        this.onFirstSection = false;
       } else {
-        navbarElement.classList.remove("bg-primary");
+        this.onFirstSection = true;
       }
     }
   }
