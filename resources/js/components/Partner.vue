@@ -1,17 +1,14 @@
 <template>
-<vue-aos animation-class="fadeInLeft animated">
-  <div class="row mt-4 mb-4">
-    <div class="col-3">
+  <vue-aos animation-class="fadeInUp animated">
+    <div class="mt-2 mb-2 text-primary text-center">
       <img :src="image" />
+      <p>
+        <strong>{{name}}</strong>
+        <br />
+        {{description}}
+      </p>
     </div>
-    <div class="col-9 text-left">
-      <div>
-        <strong class="text-primary">{{name}}</strong>
-      </div>
-      <div class="text-primary">{{description}}</div>
-    </div>
-  </div>
-</vue-aos>
+  </vue-aos>
 </template>
 <script>
 export default {
@@ -22,7 +19,8 @@ export default {
 
 <style type="text/scss" lang="scss" scoped>
 img {
-  max-width: 100%;
-  height: auto;
+  height: 10vh;
+  width: auto;
+  max-width: 60%;
 }
 </style>

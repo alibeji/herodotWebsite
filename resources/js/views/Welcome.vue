@@ -14,11 +14,10 @@
         <template v-if="isMobile">
           <div class="row cta-section-mobile bg-dark pt-2 pb-2">
             <div class="col-12">
-              <p class="text-white">
-                Hi. I’M STOUFA.
-                <br />I am the Co-Founder and the Game Director at Herodot Studio.
-                I’m glad you landed here.
-                <br />All of us at Herodot set our hearts on being the Indie Game Studio you want your friends to hear about.
+              <p class="text-white text-uppercase">
+                <span class="text-big">Hi. I’m Stoufa.</span>
+                <br />I’m glad you landed here.
+                <br />All of us at Herodot set our hearts on being the Indie Game Studio you want your friends to know.
                 <br />Stick around to know what to tell them.
                 <br />Happy scrolling.
               </p>
@@ -30,7 +29,7 @@
               <p class="text-white">
                 Mustapha Gharbi
                 <br />
-                <small>Game Director</small>
+                <small>Co-founder and Game Director</small>
               </p>
             </div>
           </div>
@@ -40,20 +39,15 @@
             <div class="d-none d-md-flex flex-row align-items-center cta-section">
               <img src="../../../public/photos/sto.jpg" class="sto-photo" />
 
-              <div class="text-uppercase cta-description bg-dark">
+              <div class="pr-2 text-uppercase cta-description bg-dark">
                 <p class="text-white">
-                  Hi. I’M STOUFA.
-                  <br />I am the Co-Founder and the Game Director at Herodot Studio.
-                  I’m glad you landed here.
-                  <br />All of us at Herodot set our hearts on being the Indie Game Studio you want your friends to hear about.
+                  <span class="text-big">Hi. I’m Stoufa.</span>
+                  <br />I’m glad you landed here.
+                  <br />All of us at Herodot set our hearts on being the Indie Game Studio you want your friends to know.
                   <br />Stick around to know what to tell them.
                   <br />Happy scrolling.
                 </p>
-                <p class="text-white">
-                  Mustapha Gharbi
-                  <br />
-                  <small>Game Director</small>
-                </p>
+                <p class="text-white">Co-founder and Game Director</p>
               </div>
             </div>
           </vue-aos>
@@ -68,7 +62,7 @@ margin-right: 60px;"></scroll-icone>
     <section class="container-fluid bg-white p-3 roadmap-section mt-5 mb-5" id="roadmap">
       <div class="row">
         <vue-aos animation-class="fadeInLeft animated">
-          <h1 class="ml-3 ml-md-none">Agenda</h1>
+          <h1 class="ml-3 ml-md-none">Herodot's Agenda</h1>
         </vue-aos>
       </div>
       <timeline></timeline>
@@ -78,22 +72,21 @@ margin-right: 60px;"></scroll-icone>
         <div class="col-12 d-md-none bygone-section-mobile"></div>
         <div class="col-12 col-md-5 p-3 mt-5 mb-5 text-center">
           <h2>OUR UPCOMING GAME</h2>
-          <p>UNVEIL THE LORE BEHIND ANCIENT CIVLIZATIONS BY SHATTERING THE CONFINES OF REALITY.</p>
           <p>
-            A game where
+            An immersive game in which
             <strong>history</strong>,
             <strong>strategy</strong>, and
-            <strong>motion</strong> all meet.
-            Collect, win, venture, and interact, in a
-            <strong>free-to-play</strong> immersive card game where your
+            <strong>Augmented Reality</strong> meet!
+            <br />Collect and trade, compete and win, in a
+            <strong>free-to-play</strong> adventure where your
             <strong>contribution impacts the storyline</strong>.
           </p>
-          <a href="https://www.playbygone.com/" class="btn">FIND OUT MORE</a>
+          <a href="https://www.playbygone.com/" target="_blank" class="btn">Game website</a>
         </div>
         <div class="col-12 col-md-7" id="bygone-background"></div>
       </div>
     </section>
-    <section class="container-fluid bg-white p-3 mt-5 mb-5">
+    <!--<section class="container-fluid bg-white p-3 mt-5 mb-5">
       <div class="row">
         <vue-aos animation-class="fadeInLeft animated">
           <h1 class="ml-3 ml-md-none">Latest Inquiries</h1>
@@ -128,10 +121,11 @@ margin-right: 60px;"></scroll-icone>
       <div class="row" v-else>
         <blog-coming-soon></blog-coming-soon>
       </div>
-    </section>
+    </section>-->
     <section class="container-fluid bg-snow pb-5 pt-5">
       <div class="pre-footer mr-5 ml-5">
         <div class="text-left col col-md-6">
+          <h2>Latest Inquiries</h2>
           <p>
             Amplifying our Gaming impact, we also aspire to be a Content Factory that provides insights and quests that we’ll call INQUIRIES - a term coined by Herodotus himself.
             We’ll challenge perspectives, seek all truths, and question some answers.
@@ -145,28 +139,39 @@ margin-right: 60px;"></scroll-icone>
 
         <div class="row align-items-center mt-5">
           <div class="col d-flex justify-content-center">
-            <svg viewBox="0 0 113 113" class="social-media-icon">
-              <path
-                d="M48.69 39.28V47h-5.64v9.41h5.64v28h11.58v-28H68s.73-4.51 1.09-9.45h-8.78v-6.45a2.74 2.74 0 012.52-2.26h6.31v-9.8h-8.58c-12.16 0-11.87 9.42-11.87 10.83z"
-              />
-            </svg>
-            <svg viewBox="0 0 111.82 111.82" class="social-media-icon">
-              <path
-                d="M85.1 38.54a24.16 24.16 0 01-6.74 1.82A11.67 11.67 0 0083.52 34a23.81 23.81 0 01-7.46 2.8 11.62 11.62 0 00-3.91-2.7 11.79 11.79 0 00-4.65-1 11.65 11.65 0 00-11.73 11.57 11.49 11.49 0 00.3 2.64 33.52 33.52 0 01-24.18-12.07A11.37 11.37 0 0030.3 41a11.52 11.52 0 005.22 9.62 12 12 0 01-5.32-1.45v.14a11.63 11.63 0 009.42 11.33 12.16 12.16 0 01-5.3.19 11.69 11.69 0 0011 8 23.77 23.77 0 01-14.57 5 26.13 26.13 0 01-2.8-.16 33.58 33.58 0 0018 5.19c21.58 0 33.38-17.6 33.38-32.87v-1.5a23.26 23.26 0 005.77-5.95z"
-                transform="translate(-.18 -.49)"
-              />
-            </svg>
-            <svg viewBox="0 0 111.82 111.82" class="social-media-icon">
+            <a href="https://www.facebook.com/Herodot-Studio-108223450781501/" target="_blank">
+              <svg viewBox="0 0 113 113" class="social-media-icon">
+                <path
+                  d="M48.69 39.28V47h-5.64v9.41h5.64v28h11.58v-28H68s.73-4.51 1.09-9.45h-8.78v-6.45a2.74 2.74 0 012.52-2.26h6.31v-9.8h-8.58c-12.16 0-11.87 9.42-11.87 10.83z"
+                />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/herodotstudio/" target="_blank">
+              <svg viewBox="-256 -256 1024 1024" class="social-media-icon">
+                <path
+                  d="m437 0h-362c-41.351562 0-75 33.648438-75 75v362c0 41.351562 33.648438 75 75 75h362c41.351562 0 75-33.648438 75-75v-362c0-41.351562-33.648438-75-75-75zm-180 390c-74.441406 0-135-60.558594-135-135s60.558594-135 135-135 135 60.558594 135 135-60.558594 135-135 135zm150-240c-24.8125 0-45-20.1875-45-45s20.1875-45 45-45 45 20.1875 45 45-20.1875 45-45 45zm0 0"
+                />
+                <path
+                  d="m407 90c-8.277344 0-15 6.722656-15 15s6.722656 15 15 15 15-6.722656 15-15-6.722656-15-15-15zm0 0"
+                />
+                <path
+                  d="m257 150c-57.890625 0-105 47.109375-105 105s47.109375 105 105 105 105-47.109375 105-105-47.109375-105-105-105zm0 0"
+                />
+              </svg>
+            </a>
+            <!--<svg viewBox="0 0 111.82 111.82" class="social-media-icon">
               <path
                 d="M73.92 35.83H39.33A12.23 12.23 0 0027 48v17.1a12.23 12.23 0 0012.33 12.13h34.59a12.22 12.22 0 0012.29-12.15V48a12.21 12.21 0 00-12.29-12.17zm-8.31 21.53L49.43 65a.71.71 0 01-.32.07.63.63 0 01-.3-.1.66.66 0 01-.23-.24.65.65 0 01-.08-.31V48.67a.62.62 0 01.09-.32.63.63 0 01.23-.23.56.56 0 01.31-.09.6.6 0 01.32.07l16.18 8.1a.67.67 0 01.25.25.58.58 0 01.09.34.69.69 0 01-.09.34.67.67 0 01-.27.23z"
                 transform="translate(-.18 -.49)"
               />
-            </svg>
-            <svg viewBox="-13 -10 50 50" class="social-media-icon">
-              <path
-                d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"
-              />
-            </svg>
+            </svg>-->
+            <a href="https://www.linkedin.com/company/historio-ar/" target="_blank">
+              <svg viewBox="-13 -10 50 50" class="social-media-icon">
+                <path
+                  d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"
+                />
+              </svg>
+            </a>
           </div>
         </div>
       </div>
@@ -233,6 +238,9 @@ export default {
 h1 {
   border-left: 4px solid $fade;
   padding-left: 0.7rem;
+}
+.text-big {
+  font-size: 0.75rem;
 }
 .roadmap-section {
   min-height: 100vh;
