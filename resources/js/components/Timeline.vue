@@ -16,7 +16,7 @@
         :date="new Date()"
         title="Kickstarter compaign"
         description="Our crowdfunding campaign goes live on Kickstarter.
-          <br />Most exciting and promising game features won't be possible without your support!"
+          <br />Your contribution will help us create the best value for our community."
         category="Spring 2020"
         icon="golf_course"
         color="custom-2"

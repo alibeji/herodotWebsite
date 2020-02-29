@@ -1,23 +1,20 @@
 <template>
   <vue-aos animation-class="slideInUp animated">
-    <div class="mt-2 mb-2">
-      <div>
-        <img :src="image" />
-      </div>
-      <div class="text-primary">
+    <div class="mt-2 mb-2 text-primary">
+      <img :src="image" />
+      <p>
         {{name}}
         <a :href="`https://www.linkedin.com/in/${linkedinUsername}/`" target="_blank">
           <small>
             <i class="fab fa-linkedin"></i>
           </small>
         </a>
-      </div>
-      <div>
-        <strong class="text-primary">{{position}}</strong>
-      </div>
-      <cite class="text-primary">
+        <br />
+        <strong class>{{position}}</strong>
+      </p>
+      <!--<cite class>
         <small>"{{quote}}"</small>
-      </cite>
+      </cite>-->
     </div>
   </vue-aos>
 </template>
@@ -31,7 +28,7 @@ export default {
 <style type="text/scss" lang="scss" scoped>
 img {
   border-radius: 50%;
-  width: 60%;
+  width: 30%;
   height: auto;
 }
 </style>

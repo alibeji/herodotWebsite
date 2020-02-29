@@ -8,10 +8,11 @@
         <vue-aos animation-class="fadeInUp animated">
           <p class="manifesto-text text-center">
             We are chaotic dreamers, disciplined buddies, and a tight-knit squad.
-            <br />Inspired by the past and driven by the future, we are here to push humanity forward by throwing it back.
+            <br />Inspired by the past and driven by the future,
+            <br />we are here to push humanity forward by throwing it back.
             <br />We conceive different perspectives of ancient tales.
-            <br />Our dream is for everyone to arise by standing on the shoulders of our bygone ancestors.
             <br />We commit to being transparent and inclusive with our fellow community.
+            <br />Our dream is for everyone to arise by standing on the shoulders of our bygone ancestors.
             <br />We stand tall and we stand for our heritage.
             <br />We are Herodot.
           </p>
@@ -25,8 +26,8 @@ margin-right: 60px;"></scroll-icone>
       <div class="row">
         <div class="col-12 col-md-7" id="team-background"></div>
         <div class="col-12 col-md-5 p-3 mt-5 mb-5">
-          <vue-aos animation-class="fadeInLeft animated">
-            <h1 class="text-white">History</h1>
+          <vue-aos animation-class="fadeInUp animated">
+            <h1 class="text-white">Our Story</h1>
           </vue-aos>
           <p>
             Herodot started off as a dream.
@@ -35,23 +36,29 @@ margin-right: 60px;"></scroll-icone>
           <p>December 2017, two genuine devotees to history and technology, use their graduation project to start-up ‘Historio’.</p>
           <p>
             Incubated, Startup-Act Labelled, and pre-seed funded, Herodot sees the
-            first AR experience come to the streets.
-            Five months later, we decide to pivot.
+            <strong>first AR experience</strong> come to the streets.
+            <br />Five months later, we decide to pivot.
             Best way to democratize history, attract more youth, and smoothly chain yesterday with tomorrow? Yup, gaming!
           </p>
-          <p>Historio wins ‘Most Creative Startup in Tunisia’ taking it to Copenhagen's Creative Business Cup. Our next stop: Jeddah.</p>
+          <p>
+            Historio wins ‘
+            <strong>Most Creative Startup in Tunisia</strong>’ taking it to Copenhagen's
+            <strong>Creative Business Cup</strong>. Our next stop: Jeddah.
+          </p>
         </div>
       </div>
     </section>
     <section class="container-fluid bg-white p-3 mt-5 mb-5" id="team-member">
       <div class="row">
-        <vue-aos animation-class="fadeInLeft animated">
-          <h1>The team</h1>
-        </vue-aos>
+        <div class="col-md-7">
+          <vue-aos animation-class="fadeInLeft animated">
+            <h1>Our team</h1>
+          </vue-aos>
+        </div>
       </div>
       <p class="d-block">Here’s who joined the history-meets-future team to make it all happen:</p>
       <div class="row text-center mt-5">
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-3">
           <team-member
             name="Youssef Boufaied"
             image="/photos/team/yb.jpg"
@@ -60,7 +67,7 @@ margin-right: 60px;"></scroll-icone>
             linkedin-username="youssef-boufaied-9ab802ab"
           ></team-member>
         </div>
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-3">
           <team-member
             name="Mustapha Gharbi"
             image="/photos/team/mg.jpg"
@@ -69,7 +76,7 @@ margin-right: 60px;"></scroll-icone>
             linkedin-username="mustapha-gharbi-069299113"
           ></team-member>
         </div>
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-3">
           <team-member
             name="Alaeddine Bouker"
             image="/photos/team/ab.jpg"
@@ -78,7 +85,7 @@ margin-right: 60px;"></scroll-icone>
             linkedin-username="bouker-alaeddine-94aa2893"
           ></team-member>
         </div>
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-3">
           <team-member
             name="Marouan Sami"
             image="/photos/team/ms.jpg"
@@ -87,7 +94,7 @@ margin-right: 60px;"></scroll-icone>
             linkedin-username="marouan-sami-757a5098"
           ></team-member>
         </div>
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-3">
           <team-member
             name="M. Habib Bouassida"
             image="/photos/team/mhb.jpg"
@@ -96,16 +103,16 @@ margin-right: 60px;"></scroll-icone>
             linkedin-username="mohamed-habib-bouassida-317609181"
           ></team-member>
         </div>
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-3">
           <team-member
             name="Ali Beji"
             image="/photos/team/ab_bis.jpg"
-            position="Designer"
+            position="Graphic Designer"
             quote="Alchemist of all colors"
             linkedin-username="ali-beji"
           ></team-member>
         </div>
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-3">
           <team-member
             name="Wael Chettaoui"
             image="/photos/team/wc.jpg"
@@ -114,7 +121,7 @@ margin-right: 60px;"></scroll-icone>
             linkedin-username="wael-chettaoui-260688168"
           ></team-member>
         </div>
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-3">
           <team-member
             name="Firas Khemiri"
             image="/photos/team/fk.jpg"
@@ -123,7 +130,7 @@ margin-right: 60px;"></scroll-icone>
             linkedin-username="firas-kh"
           ></team-member>
         </div>
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-3">
           <team-member
             name="Raed Hsasna"
             image="/photos/team/rh.jpg"
@@ -140,42 +147,57 @@ margin-right: 60px;"></scroll-icone>
           <vue-aos animation-class="fadeInLeft animated">
             <h1>They Trust us</h1>
           </vue-aos>
-          <p>
-            Winning partners’ support as a startup is a fundamental pillar of success, and it’s not an easy feat.
+          <p class="pb-5">
+            Winning partners’ support as a startup is a fundamental pillar of success,
+            <br />and it’s not an easy feat.
             <br />Here's who we take pride in calling them partners.
           </p>
         </div>
       </div>
-      <partner
-        name="Moovjee"
-        image="/photos/partners/moovjee-logo.png"
-        description="is a movement that encourages young people and student entrepreneurs to start-up their own ventures. Their national prize got to our humble hands last year."
-      ></partner>
-      <partner
-        name="The Virtual Experience Company"
-        image="/photos/partners/vec-logo.png"
-        description="they design 3D and VR models of historic sites and artifacts, sharing the passion for cultural heritage sites. A passion we can surely relate to."
-      ></partner>
-      <partner
-        name="Biatlabs"
-        image="/photos/partners/biatlabs-logo.png"
-        description="a hands-on experimental program providing entrepreneurs with mentoring, expertise, access to market and services that helped us explore, develop and scale our startup."
-      ></partner>
-      <partner
-        name="TICDCE"
-        image="/photos/partners/ticdce-logo.png"
-        description="Tunis International Center for Digital Cultural Economy is a government incubator and accelerator of numerical solutions and innovation. This sends us hope regarding national efforts to push ambitious youth like us forward."
-      ></partner>
-      <partner
-        name="Big Shot Production"
-        image="/photos/partners/bigshot-logo.png"
-        description="is an audiovisual production agency so youthful and creative and perfectionist. We like our image to be of an unexampled quality and that’s exactly why we chose them."
-      ></partner>
-      <partner
-        name="Ministry of Cultural Affairs"
-        image="/photos/partners/mac-logo.png"
-        description="an active governmental body working hard to advance the agenda of cultural protection and enhancement. Their support means much to us."
-      ></partner>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <partner
+            name="Moovjee"
+            image="/photos/partners/moovjee-logo.png"
+            description="is a movement that encourages young people and student entrepreneurs to start-up their own ventures. Their national prize got to our humble hands last year."
+          ></partner>
+        </div>
+        <div class="col-12 col-md-6">
+          <partner
+            name="Biatlabs"
+            image="/photos/partners/biatlabs-logo.jpg"
+            description="a hands-on experimental program providing entrepreneurs with mentoring, expertise, access to market and services that helped us explore, develop and scale our startup."
+          ></partner>
+        </div>
+        <div class="col-12 col-md-6">
+          <partner
+            name="The Virtual Experience Company"
+            image="/photos/partners/vec-logo.png"
+            description="they design 3D and VR models of historic sites and artifacts, sharing the passion for cultural heritage sites. A passion we can surely relate to."
+          ></partner>
+        </div>
+        <div class="col-12 col-md-6">
+          <partner
+            name="TICDCE"
+            image="/photos/partners/ticdce-logo.png"
+            description="Tunis International Center for Digital Cultural Economy is a government incubator and accelerator of numerical solutions and innovation. This sends us hope regarding national efforts to push ambitious youth like us forward."
+          ></partner>
+        </div>
+        <div class="col-12 col-md-6">
+          <partner
+            name="Big Shot Production"
+            image="/photos/partners/bigshot-logo.png"
+            description="is an audiovisual production agency so youthful and creative and perfectionist. We like our image to be of an unexampled quality and that’s exactly why we chose them."
+          ></partner>
+        </div>
+        <div class="col-12 col-md-6">
+          <partner
+            name="Ministry of Cultural Affairs"
+            image="/photos/partners/mac-logo.png"
+            description="an active governmental body working hard to advance the agenda of cultural protection and enhancement. Their support means much to us."
+          ></partner>
+        </div>
+      </div>
     </section>
   </div>
 </template>
