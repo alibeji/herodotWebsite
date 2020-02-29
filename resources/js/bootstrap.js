@@ -70,5 +70,5 @@ if (token) {
 //window.strapi = new Strapi(STRAPI_URL);
 
 window.SETTINGS = {
-    STRAPI_URL: "http://localhost:1337"
+    STRAPI_URL: "https://cms.herodotstudio.com"
 };
