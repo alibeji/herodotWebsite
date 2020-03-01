@@ -274,14 +274,14 @@ h1 {
   }
   .bygone-section-mobile {
     height: 35vh;
-    background: url("../../../public/bygone-background.png");
+    background: url("../../../public/bygone-background.webp");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
   }
 }
 .jumbotron {
-  background: url("../../../public/jumbotron_background_two_moons.png")
+  background: url("../../../public/jumbotron_background_two_moons.webp")
     no-repeat;
   background-size: cover;
   height: 100vh;
