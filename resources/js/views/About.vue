@@ -29,6 +29,7 @@ margin-right: 60px;"></scroll-icone>
           <vue-aos animation-class="fadeInUp animated">
             <h1 class="text-white">Our Story</h1>
           </vue-aos>
+          <br>
           <p>
             Herodot started off as a dream.
             <br />How future can awaken history, cooler.
@@ -54,6 +55,7 @@ margin-right: 60px;"></scroll-icone>
           <vue-aos animation-class="fadeInLeft animated">
             <h1>Our team</h1>
           </vue-aos>
+          <br>
         </div>
       </div>
       <p class="d-block">Here’s who joined the history-meets-future team to make it all happen:</p>
@@ -147,6 +149,7 @@ margin-right: 60px;"></scroll-icone>
           <vue-aos animation-class="fadeInLeft animated">
             <h1>They Trust us</h1>
           </vue-aos>
+          <br>
           <p class="pb-5">
             Winning partners’ support as a startup is a fundamental pillar of success,
             <br />and it’s not an easy feat.
@@ -155,48 +158,61 @@ margin-right: 60px;"></scroll-icone>
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-6">
+         <div class="col-12 col-md-1"></div>
+        <div class="col-12 col-md-4">
           <partner
             name="Moovjee"
             image="/photos/partners/moovjee-logo.png"
-            description="is a movement that encourages young people and student entrepreneurs to start-up their own ventures. Their national prize got to our humble hands last year."
+            description="Is a movement that encourages young people and student entrepreneurs to start-up their own ventures. Their national prize got to our humble hands last year."
           ></partner>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-2"></div>
+        <div class="col-12 col-md-4">
           <partner
             name="Biatlabs"
             image="/photos/partners/biatlabs-logo.jpg"
-            description="a hands-on experimental program providing entrepreneurs with mentoring, expertise, access to market and services that helped us explore, develop and scale our startup."
+            description="A hands-on experimental program providing entrepreneurs with mentoring, expertise, access to market and services that helped us explore, develop and scale our startup."
           ></partner>
         </div>
-        <div class="col-12 col-md-6">
+      </div>
+      <br>
+      <div class="row">
+          <div class="col-12 col-md-1"></div>
+        <div class="col-12 col-md-4">
           <partner
             name="The Virtual Experience Company"
             image="/photos/partners/vec-logo.png"
-            description="they design 3D and VR models of historic sites and artifacts, sharing the passion for cultural heritage sites. A passion we can surely relate to."
+            description="They design 3D and VR models of historic sites and artifacts, sharing the passion for cultural heritage sites. A passion we can surely relate to."
           ></partner>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-2"></div>
+        <div class="col-12 col-md-4">
           <partner
             name="TICDCE"
             image="/photos/partners/ticdce-logo.png"
             description="Tunis International Center for Digital Cultural Economy is a government incubator and accelerator of numerical solutions and innovation. This sends us hope regarding national efforts to push ambitious youth like us forward."
           ></partner>
         </div>
-        <div class="col-12 col-md-6">
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-12 col-md-1"></div>
+        <div class="col-12 col-md-4">
           <partner
             name="Big Shot Production"
             image="/photos/partners/bigshot-logo.png"
-            description="is an audiovisual production agency so youthful and creative and perfectionist. We like our image to be of an unexampled quality and that’s exactly why we chose them."
+            description="Is an audiovisual production agency so youthful and creative and perfectionist. We like our image to be of an unexampled quality and that’s exactly why we chose them."
           ></partner>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-2"></div>
+        <div class="col-12 col-md-4">
           <partner
             name="Ministry of Cultural Affairs"
             image="/photos/partners/mac-logo.png"
-            description="an active governmental body working hard to advance the agenda of cultural protection and enhancement. Their support means much to us."
+            description="An active governmental body working hard to advance the agenda of cultural protection and enhancement. Their support means much to us."
           ></partner>
         </div>
+      
       </div>
     </section>
   </div>

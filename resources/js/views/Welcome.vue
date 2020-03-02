@@ -61,10 +61,13 @@ margin-right: 60px;"></scroll-icone>
     </section>
     <section class="container-fluid bg-white p-3 roadmap-section mt-5 mb-5" id="roadmap">
       <div class="row">
+        
         <vue-aos animation-class="fadeInLeft animated">
           <h1 class="ml-3 ml-md-none">Herodot's Agenda</h1>
         </vue-aos>
       </div>
+      <br>
+     
       <timeline></timeline>
     </section>
     <section class="container-fluid" id="bygone-section">
@@ -72,6 +75,7 @@ margin-right: 60px;"></scroll-icone>
         <div class="col-12 d-md-none bygone-section-mobile"></div>
         <div class="col-12 col-md-5 p-3 mt-5 mb-5 text-center">
           <h2>OUR UPCOMING GAME</h2>
+          <br>
           <p>
             An immersive game in which
             <strong>history</strong>,
@@ -124,12 +128,14 @@ margin-right: 60px;"></scroll-icone>
     </section>-->
     <section class="container-fluid bg-snow pb-5 pt-5">
       <div class="pre-footer mr-5 ml-5">
-        <div class="text-left col col-md-6">
+        <div class="text-left col col-md-5">
           <h2>Latest Inquiries</h2>
+          <br>
           <p>
             Amplifying our Gaming impact, we also aspire to be a Content Factory that provides insights and quests that we’ll call INQUIRIES - a term coined by Herodotus himself.
             We’ll challenge perspectives, seek all truths, and question some answers.
           </p>
+          <br>
           <button
             class="btn btn-primary"
             data-toggle="modal"
@@ -286,7 +292,7 @@ h1 {
   background-size: cover;
   height: 100vh;
   position: relative;
-  border-radius: 0px;
+ 
   .jumbotron-body {
     height: 100%;
     z-index: 100;
@@ -300,22 +306,24 @@ h1 {
       padding: 1rem;
     }
     .cta-section {
-      margin-left: 150px;
+      margin-left: 180px;
+      
       .sto-photo {
-        height: 6rem;
+        height: 7rem;
         width: auto;
         border-radius: 50%;
         z-index: 200;
         border: 2px solid $grey;
       }
       .cta-description {
-        height: 6rem;
-        transform: translate(-100px);
-        padding-left: 110px;
-        padding-top: 0.3rem;
+        height: 6.2rem;
+        transform: translate(-75px);
+        padding-left: 120px;
+        padding-top: 0.4rem;
         p {
-          font-size: 0.4rem;
+          font-size: 0.42rem;
         }
+
       }
     }
     .herodot-logo {
