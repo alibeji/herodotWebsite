@@ -2,16 +2,17 @@
   <div>
     <section class="jumbotron mb-0" id="jumbotron" ref="jumbotron">
       <div class="col jumbotron-body d-flex justify-content-around flex-column">
-        <div class="text-center">
-          <vue-aos animation-class="fadeOutUp">
+      
+        <template v-if="isMobile">
+          <div class="text-center">
+           <vue-aos animation-class="fadeOutUp">
             <img
               src="../../../public/herodot-logo.svg"
-              class="herodot-logo"
+              class="herodot-logo-mobile"
               alt="Herodot Studio logo"
             />
           </vue-aos>
         </div>
-        <template v-if="isMobile">
           <div class="row cta-section-mobile bg-dark pt-2 pb-2">
             <div class="col-12">
               <p class="text-white text-uppercase">
@@ -35,6 +36,15 @@
           </div>
         </template>
         <template v-else>
+        <div class="text-center">
+           <vue-aos animation-class="fadeOutUp">
+            <img
+              src="../../../public/herodot-logo.svg"
+              class="herodot-logo"
+              alt="Herodot Studio logo"
+            />
+          </vue-aos>
+        </div>
           <vue-aos animation-class="fadeInUp animated">
             <div class="d-none d-md-flex flex-row align-items-center cta-section">
               <img src="../../../public/photos/sto.jpg" class="sto-photo" />
@@ -286,6 +296,11 @@ h1 {
     background-repeat: no-repeat;
   }
 }
+.bg-dark{
+
+  background-color: rgb(38,39,45,0.8);
+
+}
 .jumbotron {
   background: url("../../../public/jumbotron_background_two_moons.png")
     no-repeat;
@@ -328,6 +343,10 @@ h1 {
     }
     .herodot-logo {
       width: 40vw;
+      height: auto;
+    }
+     .herodot-mobile {
+      width: auto;
       height: auto;
     }
     .cta-section-mobile {

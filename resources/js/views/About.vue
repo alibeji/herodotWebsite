@@ -3,7 +3,7 @@
     <section class="jumbotron mb-0" id="jumbotron" ref="jumbotron">
       <div class="col jumbotron-body d-flex flex-column justify-content-center">
         <div>
-          <h1 class="col-6 mr-auto ml-auto text-center mb-4">Our Manifesto</h1>
+          <h1 class="col-8 mr-auto ml-auto mb-4 align-content-center">Our Manifesto</h1>
         </div>
         <vue-aos animation-class="fadeInUp animated">
           <p class="manifesto-text text-center">
@@ -22,12 +22,12 @@
 height: 5rem;
 margin-right: 60px;"></scroll-icone>
     </section>
-    <section class="container-fluid" id="team">
+    <section class="container-fluid " id="team">
       <div class="row">
         <div class="col-12 col-md-7" id="team-background"></div>
         <div class="col-12 col-md-5 p-3 mt-5 mb-5">
           <vue-aos animation-class="fadeInUp animated">
-            <h1 class="text-white">Our Story</h1>
+            <h2 class="text-white">Our Story</h2>
           </vue-aos>
           <br>
           <p>
@@ -49,18 +49,29 @@ margin-right: 60px;"></scroll-icone>
         </div>
       </div>
     </section>
-    <section class="container-fluid bg-white p-3 mt-5 mb-5" id="team-member">
+    <section class="container-fluid bg-white p-3 mt-5 mb-5 team-section" id="team-member">
       <div class="row">
+        <div class="col-md-1"></div>
         <div class="col-md-7">
           <vue-aos animation-class="fadeInLeft animated">
-            <h1>Our team</h1>
+            <h2>Our team</h2>
           </vue-aos>
           <br>
         </div>
       </div>
-      <p class="d-block">Here’s who joined the history-meets-future team to make it all happen:</p>
-      <div class="row text-center mt-5">
-        <div class="col-6 col-md-3">
+      <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-7">
+      <p class="d-block ">Here’s who joined the history-meets-future team to make it all happen:</p>
+      </div>
+      </div>
+     <br>
+     <div class="row">
+     <div class="col-md-1"></div>
+     <div class="col-md-10">
+      <div class="row text-center">
+        
+        <div class="col-md-4">
           <team-member
             name="Youssef Boufaied"
             image="/photos/team/yb.jpg"
@@ -69,7 +80,7 @@ margin-right: 60px;"></scroll-icone>
             linkedin-username="youssef-boufaied-9ab802ab"
           ></team-member>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-md-4">
           <team-member
             name="Mustapha Gharbi"
             image="/photos/team/mg.jpg"
@@ -78,7 +89,7 @@ margin-right: 60px;"></scroll-icone>
             linkedin-username="mustapha-gharbi-069299113"
           ></team-member>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-md-4">
           <team-member
             name="Alaeddine Bouker"
             image="/photos/team/ab.jpg"
@@ -87,7 +98,8 @@ margin-right: 60px;"></scroll-icone>
             linkedin-username="bouker-alaeddine-94aa2893"
           ></team-member>
         </div>
-        <div class="col-6 col-md-3">
+        
+        <div class="col-md-4">
           <team-member
             name="Marouan Sami"
             image="/photos/team/ms.jpg"
@@ -96,7 +108,7 @@ margin-right: 60px;"></scroll-icone>
             linkedin-username="marouan-sami-757a5098"
           ></team-member>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-md-4">
           <team-member
             name="M. Habib Bouassida"
             image="/photos/team/mhb.jpg"
@@ -105,7 +117,7 @@ margin-right: 60px;"></scroll-icone>
             linkedin-username="mohamed-habib-bouassida-317609181"
           ></team-member>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-md-4">
           <team-member
             name="Ali Beji"
             image="/photos/team/ab_bis.jpg"
@@ -114,7 +126,8 @@ margin-right: 60px;"></scroll-icone>
             linkedin-username="ali-beji"
           ></team-member>
         </div>
-        <div class="col-6 col-md-3">
+       
+        <div class="col-md-4">
           <team-member
             name="Wael Chettaoui"
             image="/photos/team/wc.jpg"
@@ -123,7 +136,8 @@ margin-right: 60px;"></scroll-icone>
             linkedin-username="wael-chettaoui-260688168"
           ></team-member>
         </div>
-        <div class="col-6 col-md-3">
+        
+        <div class="col-md-4">
           <team-member
             name="Firas Khemiri"
             image="/photos/team/fk.jpg"
@@ -132,7 +146,7 @@ margin-right: 60px;"></scroll-icone>
             linkedin-username="firas-kh"
           ></team-member>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-md-4">
           <team-member
             name="Raed Hsasna"
             image="/photos/team/rh.jpg"
@@ -142,12 +156,16 @@ margin-right: 60px;"></scroll-icone>
           ></team-member>
         </div>
       </div>
+     </div>
+     <div class="col-md-1"></div>
+     </div>
     </section>
-    <section class="container-fluid bg-white p-3 mt-5 mb-5">
+    <section class="container-fluid p-3 mt-5 mb-5 partners">
       <div class="row partners-title-container">
+        <div class="col-md-1"></div>
         <div class="col-md-7">
           <vue-aos animation-class="fadeInLeft animated">
-            <h1>They Trust us</h1>
+            <h2>They Trust us</h2>
           </vue-aos>
           <br>
           <p class="pb-5">
@@ -212,8 +230,8 @@ margin-right: 60px;"></scroll-icone>
             description="An active governmental body working hard to advance the agenda of cultural protection and enhancement. Their support means much to us."
           ></partner>
         </div>
-      
       </div>
+     
     </section>
   </div>
 </template>
@@ -246,8 +264,10 @@ export default {
 @import "~@/variables";
 h1 {
   border-left: 4px solid $fade;
-  padding-left: 0.7rem;
+  
+  text-align: center;
 }
+
 #team {
   background: $primary;
   overflow: hidden;
@@ -276,6 +296,7 @@ h1 {
     }
   }
 }
+
 .jumbotron {
   background: url("../../../public/jumbotron-background-shattered.jpg")
     no-repeat;
@@ -290,6 +311,7 @@ h1 {
       border: none;
       border-bottom: 2px solid $grey;
       color: white;
+      padding-bottom: 0.8rem;
       &:after {
         display: none;
       }
@@ -308,5 +330,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
+  margin-right: 4rem;
 }
+
 </style>

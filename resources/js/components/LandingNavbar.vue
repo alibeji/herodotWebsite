@@ -35,7 +35,8 @@
       >
         <span class="navbar-toggler-icon fas fa-bars text-white"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbar-main">
+       <template v-if="isMobile">
+      <div class="collapse navbar-collapse-mobile" id="navbar-main">
         <ul class="navbar-nav d-md-flex ml-auto">
           <li class="nav-link" :class="{'active': isActive('home')}">
             <router-link to="/">Home</router-link>
@@ -48,6 +49,22 @@
           </li>
         </ul>
       </div>
+       </template>
+        <template v-else>
+          <div class="collapse navbar-collapse" id="navbar-main">
+            <ul class="navbar-nav d-md-flex ml-auto">
+            <li class="nav-link" :class="{'active': isActive('home')}">
+            <router-link to="/">Home</router-link>
+          </li>
+          <li class="nav-link" :class="{'active': isActive('about')}">
+            <router-link to="/about">About</router-link>
+          </li>
+          <li class="nav-link" :class="{'active': isActive('blog')}">
+            <router-link to="/blog">Inquiries</router-link>
+          </li>
+          </ul>
+          </div>
+        </template>
     </nav>
   </div>
 </template>
@@ -85,20 +102,26 @@ export default {
 };
 </script>
 
-<style type="text/scss" lang="scss" scoped>
+<style type="f/scss" lang="scss" scoped>
 @import "~@/_variables.scss";
+
+
+
+
 .navbar {
   width: 100%;
+ 
   z-index: 9999;
   transition: background-color 0.2s ease-out, border 0.2s ease-out;
   .herodot-logo {
-    height: 1.5rem;
+    height: 2rem;
+    opacity: 70%;
   }
   .nav-link {
     padding-bottom: 0;
-    text-transform: uppercase;
     text-align: center;
     transition: border 0.3s ease-out;
+  
     &:hover {
       border-bottom: 4px solid rgba(255, 255, 255, 0.7);
       a {
@@ -128,6 +151,7 @@ export default {
     border-radius: 5px;
     margin-right: 0.1rem;
     margin-left: 0.1rem;
+   
     &.active,
     &:hover {
       border-bottom: none;
@@ -135,4 +159,5 @@ export default {
     }
   }
 }
+
 </style>
