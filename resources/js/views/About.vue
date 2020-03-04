@@ -3,7 +3,7 @@
     <section class="jumbotron mb-0" id="jumbotron" ref="jumbotron">
       <div class="col jumbotron-body d-flex flex-column justify-content-center">
         <div>
-          <h1 class="col-6 mr-auto ml-auto text-center mb-4">Our Manifesto</h1>
+          <h1 class="col-8 mr-auto ml-auto mb-4 align-content-center">Our Manifesto</h1>
         </div>
         <vue-aos animation-class="fadeInUp animated">
           <p class="manifesto-text text-center">
@@ -27,8 +27,9 @@ margin-right: 60px;"></scroll-icone>
         <div class="col-12 col-md-7" id="team-background"></div>
         <div class="col-12 col-md-5 p-3 mt-5 mb-5">
           <vue-aos animation-class="fadeInUp animated">
-            <h1 class="text-white">Our Story</h1>
+            <h2 class="text-white">Our Story</h2>
           </vue-aos>
+          <br />
           <p>
             Herodot started off as a dream.
             <br />How future can awaken history, cooler.
@@ -48,105 +49,124 @@ margin-right: 60px;"></scroll-icone>
         </div>
       </div>
     </section>
-    <section class="container-fluid bg-white p-3 mt-5 mb-5" id="team-member">
+    <section class="container-fluid bg-white p-3 mt-5 mb-5 team-section" id="team-member">
       <div class="row">
+        <div class="col-md-1"></div>
         <div class="col-md-7">
           <vue-aos animation-class="fadeInLeft animated">
-            <h1>Our team</h1>
+            <h2>Our team</h2>
           </vue-aos>
+          <br />
         </div>
       </div>
-      <p class="d-block">Here’s who joined the history-meets-future team to make it all happen:</p>
-      <div class="row text-center mt-5">
-        <div class="col-6 col-md-3">
-          <team-member
-            name="Youssef Boufaied"
-            image="/photos/team/yb.jpg"
-            position="CEO"
-            quote="Master Handshaker"
-            linkedin-username="youssef-boufaied-9ab802ab"
-          ></team-member>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-7">
+          <p class="d-block">Here’s who joined the history-meets-future team to make it all happen:</p>
         </div>
-        <div class="col-6 col-md-3">
-          <team-member
-            name="Mustapha Gharbi"
-            image="/photos/team/mg.jpg"
-            position="Game Director"
-            quote="Herodot worshipper"
-            linkedin-username="mustapha-gharbi-069299113"
-          ></team-member>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="row text-center">
+            <div class="col-md-4">
+              <team-member
+                name="Youssef Boufaied"
+                image="/photos/team/yb.jpg"
+                position="CEO"
+                quote="Master Handshaker"
+                linkedin-username="youssef-boufaied-9ab802ab"
+              ></team-member>
+            </div>
+            <div class="col-md-4">
+              <team-member
+                name="Mustapha Gharbi"
+                image="/photos/team/mg.jpg"
+                position="Game Director"
+                quote="Herodot worshipper"
+                linkedin-username="mustapha-gharbi-069299113"
+              ></team-member>
+            </div>
+            <div class="col-md-4">
+              <team-member
+                name="Alaeddine Bouker"
+                image="/photos/team/ab.jpg"
+                position="CFO"
+                quote="Professional Sleeper"
+                linkedin-username="bouker-alaeddine-94aa2893"
+              ></team-member>
+            </div>
+
+            <div class="col-md-4">
+              <team-member
+                name="Marouan Sami"
+                image="/photos/team/ms.jpg"
+                position="CTO"
+                quote="Intergalactic bot"
+                linkedin-username="marouan-sami-757a5098"
+              ></team-member>
+            </div>
+            <div class="col-md-4">
+              <team-member
+                name="M. Habib Bouassida"
+                image="/photos/team/mhb.jpg"
+                position="CMO"
+                quote="Wizard of Shiny Moments"
+                linkedin-username="mohamed-habib-bouassida-317609181"
+              ></team-member>
+            </div>
+            <div class="col-md-4">
+              <team-member
+                name="Ali Beji"
+                image="/photos/team/ab_bis.jpg"
+                position="Graphic Designer"
+                quote="Alchemist of all colors"
+                linkedin-username="ali-beji"
+              ></team-member>
+            </div>
+
+            <div class="col-md-4">
+              <team-member
+                name="Wael Chettaoui"
+                image="/photos/team/wc.jpg"
+                position="Marketer"
+                quote="Poetry Dynamo"
+                linkedin-username="wael-chettaoui-260688168"
+              ></team-member>
+            </div>
+
+            <div class="col-md-4">
+              <team-member
+                name="Firas Khemiri"
+                image="/photos/team/fk.jpg"
+                position="Game Dev"
+                quote="Digital Overlord"
+                linkedin-username="firas-kh"
+              ></team-member>
+            </div>
+            <div class="col-md-4">
+              <team-member
+                name="Raed Hsasna"
+                image="/photos/team/rh.jpg"
+                position="Copywriter"
+                quote="Warden of the Scrolls"
+                linkedin-username="raed-hsasna-577867108"
+              ></team-member>
+            </div>
+          </div>
         </div>
-        <div class="col-6 col-md-3">
-          <team-member
-            name="Alaeddine Bouker"
-            image="/photos/team/ab.jpg"
-            position="CFO"
-            quote="Professional Sleeper"
-            linkedin-username="bouker-alaeddine-94aa2893"
-          ></team-member>
-        </div>
-        <div class="col-6 col-md-3">
-          <team-member
-            name="Marouan Sami"
-            image="/photos/team/ms.jpg"
-            position="CTO"
-            quote="Intergalactic bot"
-            linkedin-username="marouan-sami-757a5098"
-          ></team-member>
-        </div>
-        <div class="col-6 col-md-3">
-          <team-member
-            name="M. Habib Bouassida"
-            image="/photos/team/mhb.jpg"
-            position="CMO"
-            quote="Wizard of Shiny Moments"
-            linkedin-username="mohamed-habib-bouassida-317609181"
-          ></team-member>
-        </div>
-        <div class="col-6 col-md-3">
-          <team-member
-            name="Ali Beji"
-            image="/photos/team/ab_bis.jpg"
-            position="Graphic Designer"
-            quote="Alchemist of all colors"
-            linkedin-username="ali-beji"
-          ></team-member>
-        </div>
-        <div class="col-6 col-md-3">
-          <team-member
-            name="Wael Chettaoui"
-            image="/photos/team/wc.jpg"
-            position="Marketer"
-            quote="Poetry Dynamo"
-            linkedin-username="wael-chettaoui-260688168"
-          ></team-member>
-        </div>
-        <div class="col-6 col-md-3">
-          <team-member
-            name="Firas Khemiri"
-            image="/photos/team/fk.jpg"
-            position="Game Dev"
-            quote="Digital Overlord"
-            linkedin-username="firas-kh"
-          ></team-member>
-        </div>
-        <div class="col-6 col-md-3">
-          <team-member
-            name="Raed Hsasna"
-            image="/photos/team/rh.jpg"
-            position="Copywriter"
-            quote="Warden of the Scrolls"
-            linkedin-username="raed-hsasna-577867108"
-          ></team-member>
-        </div>
+        <div class="col-md-1"></div>
       </div>
     </section>
-    <section class="container-fluid bg-white p-3 mt-5 mb-5">
+    <section class="container-fluid p-3 mt-5 mb-5 partners">
       <div class="row partners-title-container">
+        <div class="col-md-1"></div>
         <div class="col-md-7">
           <vue-aos animation-class="fadeInLeft animated">
-            <h1>They Trust us</h1>
+            <h2>They Trust us</h2>
           </vue-aos>
+          <br />
           <p class="pb-5">
             Winning partners’ support as a startup is a fundamental pillar of success,
             <br />and it’s not an easy feat.
@@ -155,46 +175,58 @@ margin-right: 60px;"></scroll-icone>
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-1"></div>
+        <div class="col-12 col-md-4">
           <partner
             name="Moovjee"
             image="/photos/partners/moovjee-logo.png"
-            description="is a movement that encourages young people and student entrepreneurs to start-up their own ventures. Their national prize got to our humble hands last year."
+            description="Is a movement that encourages young people and student entrepreneurs to start-up their own ventures. Their national prize got to our humble hands last year."
           ></partner>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-2"></div>
+        <div class="col-12 col-md-4">
           <partner
             name="Biatlabs"
             image="/photos/partners/biatlabs-logo.jpg"
-            description="a hands-on experimental program providing entrepreneurs with mentoring, expertise, access to market and services that helped us explore, develop and scale our startup."
+            description="A hands-on experimental program providing entrepreneurs with mentoring, expertise, access to market and services that helped us explore, develop and scale our startup."
           ></partner>
         </div>
-        <div class="col-12 col-md-6">
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-12 col-md-1"></div>
+        <div class="col-12 col-md-4">
           <partner
             name="The Virtual Experience Company"
             image="/photos/partners/vec-logo.png"
-            description="they design 3D and VR models of historic sites and artifacts, sharing the passion for cultural heritage sites. A passion we can surely relate to."
+            description="They design 3D and VR models of historic sites and artifacts, sharing the passion for cultural heritage sites. A passion we can surely relate to."
           ></partner>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-2"></div>
+        <div class="col-12 col-md-4">
           <partner
             name="TICDCE"
             image="/photos/partners/ticdce-logo.png"
             description="Tunis International Center for Digital Cultural Economy is a government incubator and accelerator of numerical solutions and innovation. This sends us hope regarding national efforts to push ambitious youth like us forward."
           ></partner>
         </div>
-        <div class="col-12 col-md-6">
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-12 col-md-1"></div>
+        <div class="col-12 col-md-4">
           <partner
             name="Big Shot Production"
             image="/photos/partners/bigshot-logo.png"
-            description="is an audiovisual production agency so youthful and creative and perfectionist. We like our image to be of an unexampled quality and that’s exactly why we chose them."
+            description="Is an audiovisual production agency so youthful and creative and perfectionist. We like our image to be of an unexampled quality and that’s exactly why we chose them."
           ></partner>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-2"></div>
+        <div class="col-12 col-md-4">
           <partner
             name="Ministry of Cultural Affairs"
             image="/photos/partners/mac-logo.png"
-            description="an active governmental body working hard to advance the agenda of cultural protection and enhancement. Their support means much to us."
+            description="An active governmental body working hard to advance the agenda of cultural protection and enhancement. Their support means much to us."
           ></partner>
         </div>
       </div>
@@ -230,8 +262,10 @@ export default {
 @import "~@/variables";
 h1 {
   border-left: 4px solid $fade;
-  padding-left: 0.7rem;
+
+  text-align: center;
 }
+
 #team {
   background: $primary;
   overflow: hidden;
@@ -260,6 +294,7 @@ h1 {
     }
   }
 }
+
 .jumbotron {
   background: url("../../../public/jumbotron-background-shattered.jpg")
     no-repeat;
@@ -274,6 +309,7 @@ h1 {
       border: none;
       border-bottom: 2px solid $grey;
       color: white;
+      padding-bottom: 0.8rem;
       &:after {
         display: none;
       }
@@ -292,5 +328,6 @@ h1 {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
+  margin-right: 4rem;
 }
 </style>

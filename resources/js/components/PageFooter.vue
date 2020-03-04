@@ -1,20 +1,22 @@
 <template>
   <footer class="container-fluid text-left">
-    <section class="row pt-4 pb-4 bg-primary">
-      <div class="col-4">
+  
+    <section class="row pt-4 pb-5  bg-primary">
+    
+      <div class="col-md-4">
         <h4>Contact</h4>
-        <address class="mb-0">50, 1000 Rue Mokhtar Attia, Tunis 1001</address>
+        <a class="mb-0" href="https://www.google.com/maps/place/Historio/@36.8064935,10.1815323,15z/data=!4m5!3m4!1s0x12fd351cb275257d:0x372c96f3fa4179e0!8m2!3d36.8011614!4d10.1809328" target="_blank">50, 1000 Rue Mokhtar Attia, Tunis 1001</a><br>
         <a href="tel:+21652744342">+216 52 744 342</a>
         <br />
         <a href="mailto:contact@playbygone.com">contact@playbygone.com</a>
       </div>
-      <div class="col-4">
+      <div class="col-md-4">
         <h4>Contact</h4>
         <a>Media Kit</a>
         <br />
         <a>Investor Kit</a>
       </div>
-      <div class="col-4">
+      <div class="col-md-4">
         <h4>Careers</h4>
         <p>
           Interested in working with us? Please
