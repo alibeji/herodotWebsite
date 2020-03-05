@@ -303,7 +303,7 @@ h1 {
   background-size: cover;
   height: 100vh;
   position: relative;
-
+  border-radius: 0%;
   .jumbotron-body {
     height: 100%;
     z-index: 100;
