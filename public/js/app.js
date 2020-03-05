@@ -10932,8 +10932,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 
 
@@ -11153,8 +11151,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_NewsletterModal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/NewsletterModal */ "./resources/js/components/NewsletterModal.vue");
 /* harmony import */ var _components_ScrollIcone__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/ScrollIcone */ "./resources/js/components/ScrollIcone.vue");
 /* harmony import */ var _components_Timeline__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Timeline */ "./resources/js/components/Timeline.vue");
-//
-//
 //
 //
 //
@@ -75588,7 +75584,7 @@ var render = function() {
       1
     ),
     _vm._v(" "),
-    _c("section", { staticClass: "container-fluid ", attrs: { id: "team" } }, [
+    _c("section", { staticClass: "container-fluid", attrs: { id: "team" } }, [
       _c("div", { staticClass: "row" }, [
         _c("div", {
           staticClass: "col-12 col-md-7",
@@ -76020,7 +76016,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-1" }),
       _vm._v(" "),
       _c("div", { staticClass: "col-md-7" }, [
-        _c("p", { staticClass: "d-block " }, [
+        _c("p", { staticClass: "d-block" }, [
           _vm._v(
             "Here’s who joined the history-meets-future team to make it all happen:"
           )
