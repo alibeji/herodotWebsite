@@ -22,14 +22,14 @@
 height: 5rem;
 margin-right: 60px;"></scroll-icone>
     </section>
-    <section class="container-fluid " id="team">
+    <section class="container-fluid" id="team">
       <div class="row">
         <div class="col-12 col-md-7" id="team-background"></div>
         <div class="col-12 col-md-5 p-3 mt-5 mb-5">
           <vue-aos animation-class="fadeInUp animated">
             <h2 class="text-white">Our Story</h2>
           </vue-aos>
-          <br>
+          <br />
           <p>
             Herodot started off as a dream.
             <br />How future can awaken history, cooler.
@@ -56,109 +56,108 @@ margin-right: 60px;"></scroll-icone>
           <vue-aos animation-class="fadeInLeft animated">
             <h2>Our team</h2>
           </vue-aos>
-          <br>
+          <br />
         </div>
       </div>
       <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-7">
-      <p class="d-block ">Here’s who joined the history-meets-future team to make it all happen:</p>
-      </div>
-      </div>
-     <br>
-     <div class="row">
-     <div class="col-md-1"></div>
-     <div class="col-md-10">
-      <div class="row text-center">
-        
-        <div class="col-md-4">
-          <team-member
-            name="Youssef Boufaied"
-            image="/photos/team/yb.jpg"
-            position="CEO"
-            quote="Master Handshaker"
-            linkedin-username="youssef-boufaied-9ab802ab"
-          ></team-member>
-        </div>
-        <div class="col-md-4">
-          <team-member
-            name="Mustapha Gharbi"
-            image="/photos/team/mg.jpg"
-            position="Game Director"
-            quote="Herodot worshipper"
-            linkedin-username="mustapha-gharbi-069299113"
-          ></team-member>
-        </div>
-        <div class="col-md-4">
-          <team-member
-            name="Alaeddine Bouker"
-            image="/photos/team/ab.jpg"
-            position="CFO"
-            quote="Professional Sleeper"
-            linkedin-username="bouker-alaeddine-94aa2893"
-          ></team-member>
-        </div>
-        
-        <div class="col-md-4">
-          <team-member
-            name="Marouan Sami"
-            image="/photos/team/ms.jpg"
-            position="CTO"
-            quote="Intergalactic bot"
-            linkedin-username="marouan-sami-757a5098"
-          ></team-member>
-        </div>
-        <div class="col-md-4">
-          <team-member
-            name="M. Habib Bouassida"
-            image="/photos/team/mhb.jpg"
-            position="CMO"
-            quote="Wizard of Shiny Moments"
-            linkedin-username="mohamed-habib-bouassida-317609181"
-          ></team-member>
-        </div>
-        <div class="col-md-4">
-          <team-member
-            name="Ali Beji"
-            image="/photos/team/ab_bis.jpg"
-            position="Graphic Designer"
-            quote="Alchemist of all colors"
-            linkedin-username="ali-beji"
-          ></team-member>
-        </div>
-       
-        <div class="col-md-4">
-          <team-member
-            name="Wael Chettaoui"
-            image="/photos/team/wc.jpg"
-            position="Marketer"
-            quote="Poetry Dynamo"
-            linkedin-username="wael-chettaoui-260688168"
-          ></team-member>
-        </div>
-        
-        <div class="col-md-4">
-          <team-member
-            name="Firas Khemiri"
-            image="/photos/team/fk.jpg"
-            position="Game Dev"
-            quote="Digital Overlord"
-            linkedin-username="firas-kh"
-          ></team-member>
-        </div>
-        <div class="col-md-4">
-          <team-member
-            name="Raed Hsasna"
-            image="/photos/team/rh.jpg"
-            position="Copywriter"
-            quote="Warden of the Scrolls"
-            linkedin-username="raed-hsasna-577867108"
-          ></team-member>
+        <div class="col-md-1"></div>
+        <div class="col-md-7">
+          <p class="d-block">Here’s who joined the history-meets-future team to make it all happen:</p>
         </div>
       </div>
-     </div>
-     <div class="col-md-1"></div>
-     </div>
+      <br />
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="row text-center">
+            <div class="col-md-4">
+              <team-member
+                name="Youssef Boufaied"
+                image="/photos/team/yb.jpg"
+                position="CEO"
+                quote="Master Handshaker"
+                linkedin-username="youssef-boufaied-9ab802ab"
+              ></team-member>
+            </div>
+            <div class="col-md-4">
+              <team-member
+                name="Mustapha Gharbi"
+                image="/photos/team/mg.jpg"
+                position="Game Director"
+                quote="Herodot worshipper"
+                linkedin-username="mustapha-gharbi-069299113"
+              ></team-member>
+            </div>
+            <div class="col-md-4">
+              <team-member
+                name="Alaeddine Bouker"
+                image="/photos/team/ab.jpg"
+                position="CFO"
+                quote="Professional Sleeper"
+                linkedin-username="bouker-alaeddine-94aa2893"
+              ></team-member>
+            </div>
+
+            <div class="col-md-4">
+              <team-member
+                name="Marouan Sami"
+                image="/photos/team/ms.jpg"
+                position="CTO"
+                quote="Intergalactic bot"
+                linkedin-username="marouan-sami-757a5098"
+              ></team-member>
+            </div>
+            <div class="col-md-4">
+              <team-member
+                name="M. Habib Bouassida"
+                image="/photos/team/mhb.jpg"
+                position="CMO"
+                quote="Wizard of Shiny Moments"
+                linkedin-username="mohamed-habib-bouassida-317609181"
+              ></team-member>
+            </div>
+            <div class="col-md-4">
+              <team-member
+                name="Ali Beji"
+                image="/photos/team/ab_bis.jpg"
+                position="Graphic Designer"
+                quote="Alchemist of all colors"
+                linkedin-username="ali-beji"
+              ></team-member>
+            </div>
+
+            <div class="col-md-4">
+              <team-member
+                name="Wael Chettaoui"
+                image="/photos/team/wc.jpg"
+                position="Marketer"
+                quote="Poetry Dynamo"
+                linkedin-username="wael-chettaoui-260688168"
+              ></team-member>
+            </div>
+
+            <div class="col-md-4">
+              <team-member
+                name="Firas Khemiri"
+                image="/photos/team/fk.jpg"
+                position="Game Dev"
+                quote="Digital Overlord"
+                linkedin-username="firas-kh"
+              ></team-member>
+            </div>
+            <div class="col-md-4">
+              <team-member
+                name="Raed Hsasna"
+                image="/photos/team/rh.jpg"
+                position="Copywriter"
+                quote="Warden of the Scrolls"
+                linkedin-username="raed-hsasna-577867108"
+              ></team-member>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
     </section>
     <section class="container-fluid p-3 mt-5 mb-5 partners">
       <div class="row partners-title-container">
@@ -167,7 +166,7 @@ margin-right: 60px;"></scroll-icone>
           <vue-aos animation-class="fadeInLeft animated">
             <h2>They Trust us</h2>
           </vue-aos>
-          <br>
+          <br />
           <p class="pb-5">
             Winning partners’ support as a startup is a fundamental pillar of success,
             <br />and it’s not an easy feat.
@@ -176,7 +175,7 @@ margin-right: 60px;"></scroll-icone>
         </div>
       </div>
       <div class="row">
-         <div class="col-12 col-md-1"></div>
+        <div class="col-12 col-md-1"></div>
         <div class="col-12 col-md-4">
           <partner
             name="Moovjee"
@@ -193,9 +192,9 @@ margin-right: 60px;"></scroll-icone>
           ></partner>
         </div>
       </div>
-      <br>
+      <br />
       <div class="row">
-          <div class="col-12 col-md-1"></div>
+        <div class="col-12 col-md-1"></div>
         <div class="col-12 col-md-4">
           <partner
             name="The Virtual Experience Company"
@@ -212,7 +211,7 @@ margin-right: 60px;"></scroll-icone>
           ></partner>
         </div>
       </div>
-      <br>
+      <br />
       <div class="row">
         <div class="col-12 col-md-1"></div>
         <div class="col-12 col-md-4">
@@ -231,7 +230,6 @@ margin-right: 60px;"></scroll-icone>
           ></partner>
         </div>
       </div>
-     
     </section>
   </div>
 </template>
@@ -264,7 +262,7 @@ export default {
 @import "~@/variables";
 h1 {
   border-left: 4px solid $fade;
-  
+
   text-align: center;
 }
 
@@ -332,5 +330,4 @@ h1 {
   background-position: right;
   margin-right: 4rem;
 }
-
 </style>
