@@ -36,7 +36,7 @@
         <span class="navbar-toggler-icon fas fa-bars text-white"></span>
       </button>
       <template v-if="isMobile">
-        <div class="collapse navbar-collapse-mobile" id="navbar-main">
+        <div class="collapse navbar-collapse mobile-background" id="navbar-main">
           <ul class="navbar-nav d-md-flex ml-auto">
             <li class="nav-link" :class="{'active': isActive('home')}">
               <router-link to="/">Home</router-link>
@@ -105,6 +105,10 @@ export default {
 <style type="text/scss" lang="scss" scoped>
 @import "~@/_variables.scss";
 
+.mobile-background{
+  background-color: rgb(33,49,82,0.8);
+
+}
 .navbar {
   width: 100%;
 
@@ -112,7 +116,7 @@ export default {
   transition: background-color 0.2s ease-out, border 0.2s ease-out;
   .herodot-logo {
     height: 2rem;
-    opacity: 70%;
+  
   }
   .nav-link {
     padding-bottom: 0;
