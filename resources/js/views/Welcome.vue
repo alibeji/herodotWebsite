@@ -303,7 +303,7 @@ h1 {
   background-size: cover;
   height: 100vh;
   position: relative;
-
+  border-radius: 0%;
   .jumbotron-body {
     height: 100%;
     z-index: 100;
@@ -327,7 +327,7 @@ h1 {
         border: 2px solid $grey;
       }
       .cta-description {
-        height: 6.2rem;
+        height: 100%;
         transform: translate(-75px);
         padding-left: 120px;
         padding-top: 0.4rem;
