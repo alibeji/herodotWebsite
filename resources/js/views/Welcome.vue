@@ -288,7 +288,7 @@ h1 {
   }
   .bygone-section-mobile {
     height: 35vh;
-    background: url("../../../public/bygone-background.webp");
+    background: url("../../../public/bygone-background.png");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -298,7 +298,7 @@ h1 {
   background-color: rgb(38, 39, 45, 0.8);
 }
 .jumbotron {
-  background: url("../../../public/jumbotron_background_two_moons.webp")
+  background: url("../../../public/jumbotron_background_two_moons.png")
     no-repeat;
   background-size: cover;
   height: 100vh;
