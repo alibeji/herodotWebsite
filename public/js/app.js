@@ -76800,7 +76800,10 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "text-right col-md-7" }, [
         _c("img", {
-          attrs: { src: __webpack_require__(/*! ../../../public/ui/misc/maya-pyramid.svg */ "./public/ui/misc/maya-pyramid.svg") }
+          attrs: {
+            src: __webpack_require__(/*! ../../../public/ui/misc/maya-pyramid.svg */ "./public/ui/misc/maya-pyramid.svg"),
+            alt: "Maya Pyramid Isometric"
+          }
         })
       ])
     ])
