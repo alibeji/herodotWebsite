@@ -3,7 +3,7 @@
     <vue-aos animation-class="fadeIn animated">
       <vue-timeline-update
         :date="new Date()"
-        title="International competition"
+        title="International competition [POSTPONED]"
         description="We’re flying to Jeddah to pitch in the Semi Finals of MIT Arab Start-Up Competition."
         thumbnail="https://www.opportunitiesforafricans.com/wp-content/uploads/2019/09/mit-arab-startup-competition-2020.jpg"
         category="March 2020"
