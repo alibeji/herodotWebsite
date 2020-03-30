@@ -44,7 +44,7 @@ margin-right: 60px;"></scroll-icone>
           <p>
             Historio wins ‘
             <strong>Most Creative Startup in Tunisia</strong>’ taking it to Copenhagen's
-            <strong>Creative Business Cup</strong>. Our next stop: Jeddah.
+            <strong>Creative Business Cup</strong>
           </p>
         </div>
       </div>

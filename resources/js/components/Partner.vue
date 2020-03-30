@@ -1,12 +1,15 @@
 <template>
   <vue-aos animation-class="fadeInUp animated">
-    <div class="mt-2 mb-2 text-primary text-center">
+    <div class="text-primary text-center">
       <img :src="image" />
+      <br/>
+      <br>
       <p>
-        <strong>{{name}}</strong>
+        <strong>{{name}}</strong><br>
         <br />
         {{description}}
       </p>
+      <br>
     </div>
   </vue-aos>
 </template>

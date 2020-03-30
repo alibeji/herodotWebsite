@@ -136,6 +136,7 @@ margin-right: 60px;"></scroll-icone>
     </section>-->
     <section class="container-fluid bg-snow pb-5 pt-5">
       <div class="pre-footer mr-5 ml-5">
+        <div class="row">
         <div class="text-left col col-md-5">
           <h2>Latest Inquiries</h2>
           <br />
@@ -149,6 +150,11 @@ margin-right: 60px;"></scroll-icone>
             data-toggle="modal"
             data-target="#newsletter-modal"
           >SEEK TO INQUEST</button>
+         
+        </div>
+         <div class="text-right col-md-7">
+            <img src="../../../public/ui/misc/maya-pyramid.svg" alt="Maya Pyramid Isometric">
+          </div>
         </div>
 
         <div class="row align-items-center mt-5">
@@ -320,14 +326,14 @@ h1 {
       margin-left: 180px;
 
       .sto-photo {
-        height: 7rem;
+        height: 8rem;
         width: auto;
         border-radius: 50%;
         z-index: 200;
         border: 2px solid $grey;
       }
       .cta-description {
-        height: 100%;
+        height: 90%;
         transform: translate(-75px);
         padding-left: 120px;
         padding-top: 0.4rem;
@@ -346,7 +352,7 @@ h1 {
     }
     .cta-section-mobile {
       .sto-photo {
-        height: 6rem;
+        height: 7rem;
         width: auto;
         border-radius: 50%;
         z-index: 200;
@@ -356,10 +362,7 @@ h1 {
   }
 }
 .pre-footer {
-  background-image: url("../../../public/ui/misc/maya-pyramid.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
+
   p {
     font-weight: 500;
   }
