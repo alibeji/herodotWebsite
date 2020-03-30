@@ -153,7 +153,7 @@ margin-right: 60px;"></scroll-icone>
          
         </div>
          <div class="text-right col-md-7">
-            <img src="../../../public/ui/misc/maya-pyramid.svg">
+            <img src="../../../public/ui/misc/maya-pyramid.svg" alt="Maya Pyramid Isometric">
           </div>
         </div>
 
