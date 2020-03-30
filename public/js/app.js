@@ -10486,6 +10486,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Partner",
   props: ["name", "image", "description"]
@@ -11151,6 +11154,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_NewsletterModal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/NewsletterModal */ "./resources/js/components/NewsletterModal.vue");
 /* harmony import */ var _components_ScrollIcone__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/ScrollIcone */ "./resources/js/components/ScrollIcone.vue");
 /* harmony import */ var _components_Timeline__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Timeline */ "./resources/js/components/Timeline.vue");
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -16505,7 +16514,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "h1[data-v-1ae8ae93] {\n  border-left: 4px solid #E1E1D9;\n  padding-left: 0.7rem;\n}\n.text-big[data-v-1ae8ae93] {\n  font-size: 0.75rem;\n}\n.roadmap-section[data-v-1ae8ae93] {\n  min-height: 100vh;\n}\n#bygone-section[data-v-1ae8ae93] {\n  background: #E1E1D9;\n  overflow: hidden;\n}\n#bygone-section p[data-v-1ae8ae93] {\n  color: #213152;\n  text-transform: uppercase;\n}\n#bygone-section #bygone-background[data-v-1ae8ae93] {\n  -webkit-transform: skewX(-45deg);\n          transform: skewX(-45deg);\n  -webkit-transform-origin: bottom right;\n          transform-origin: bottom right;\n  overflow: hidden;\n  position: relative;\n}\n#bygone-section #bygone-background[data-v-1ae8ae93]::before {\n  content: \"\";\n  -webkit-transform: skewX(45deg);\n          transform: skewX(45deg);\n  position: absolute;\n  background: url(" + escape(__webpack_require__(/*! ../../../public/bygone-thumbnail.jpg */ "./public/bygone-thumbnail.jpg")) + ");\n  background-position: center center;\n  background-size: cover;\n  background-repeat: no-repeat;\n  -webkit-transform-origin: bottom right;\n          transform-origin: bottom right;\n  width: 100%;\n  height: 100%;\n  right: 0;\n  bottom: 0;\n}\n#bygone-section .bygone-section-mobile[data-v-1ae8ae93] {\n  height: 35vh;\n  background: url(" + escape(__webpack_require__(/*! ../../../public/bygone-background.png */ "./public/bygone-background.png")) + ");\n  background-position: center center;\n  background-size: cover;\n  background-repeat: no-repeat;\n}\n.bg-dark[data-v-1ae8ae93] {\n  background-color: rgba(38, 39, 45, 0.8);\n}\n.jumbotron[data-v-1ae8ae93] {\n  background: url(" + escape(__webpack_require__(/*! ../../../public/jumbotron_background_two_moons.png */ "./public/jumbotron_background_two_moons.png")) + ") no-repeat;\n  background-size: cover;\n  height: 100vh;\n  position: relative;\n  border-radius: 0%;\n}\n.jumbotron .jumbotron-body[data-v-1ae8ae93] {\n  height: 100%;\n  z-index: 100;\n}\n.jumbotron .jumbotron-body h1[data-v-1ae8ae93] {\n  color: white;\n}\n.jumbotron .jumbotron-body h1[data-v-1ae8ae93]:after {\n  display: none;\n}\n.jumbotron .jumbotron-body button[data-v-1ae8ae93] {\n  padding: 1rem;\n}\n.jumbotron .jumbotron-body .cta-section[data-v-1ae8ae93] {\n  margin-left: 180px;\n}\n.jumbotron .jumbotron-body .cta-section .sto-photo[data-v-1ae8ae93] {\n  height: 7rem;\n  width: auto;\n  border-radius: 50%;\n  z-index: 200;\n  border: 2px solid #E1E1D9;\n}\n.jumbotron .jumbotron-body .cta-section .cta-description[data-v-1ae8ae93] {\n  height: 100%;\n  -webkit-transform: translate(-75px);\n          transform: translate(-75px);\n  padding-left: 120px;\n  padding-top: 0.4rem;\n}\n.jumbotron .jumbotron-body .cta-section .cta-description p[data-v-1ae8ae93] {\n  font-size: 0.42rem;\n}\n.jumbotron .jumbotron-body .herodot-logo[data-v-1ae8ae93] {\n  width: 40vw;\n  height: auto;\n}\n.jumbotron .jumbotron-body .herodot-mobile[data-v-1ae8ae93] {\n  width: auto;\n  height: auto;\n}\n.jumbotron .jumbotron-body .cta-section-mobile .sto-photo[data-v-1ae8ae93] {\n  height: 6rem;\n  width: auto;\n  border-radius: 50%;\n  z-index: 200;\n  border: 2px solid #E1E1D9;\n}\n.pre-footer[data-v-1ae8ae93] {\n  background-image: url(" + escape(__webpack_require__(/*! ../../../public/ui/misc/maya-pyramid.svg */ "./public/ui/misc/maya-pyramid.svg")) + ");\n  background-repeat: no-repeat;\n  background-size: contain;\n  background-position: right;\n}\n.pre-footer p[data-v-1ae8ae93] {\n  font-weight: 500;\n}\n.pre-footer .social-media-icon[data-v-1ae8ae93] {\n  margin-right: 0.5rem;\n  margin-left: 0.5rem;\n}", ""]);
+exports.push([module.i, "h1[data-v-1ae8ae93] {\n  border-left: 4px solid #E1E1D9;\n  padding-left: 0.7rem;\n}\n.text-big[data-v-1ae8ae93] {\n  font-size: 0.75rem;\n}\n.roadmap-section[data-v-1ae8ae93] {\n  min-height: 100vh;\n}\n#bygone-section[data-v-1ae8ae93] {\n  background: #E1E1D9;\n  overflow: hidden;\n}\n#bygone-section p[data-v-1ae8ae93] {\n  color: #213152;\n  text-transform: uppercase;\n}\n#bygone-section #bygone-background[data-v-1ae8ae93] {\n  -webkit-transform: skewX(-45deg);\n          transform: skewX(-45deg);\n  -webkit-transform-origin: bottom right;\n          transform-origin: bottom right;\n  overflow: hidden;\n  position: relative;\n}\n#bygone-section #bygone-background[data-v-1ae8ae93]::before {\n  content: \"\";\n  -webkit-transform: skewX(45deg);\n          transform: skewX(45deg);\n  position: absolute;\n  background: url(" + escape(__webpack_require__(/*! ../../../public/bygone-thumbnail.jpg */ "./public/bygone-thumbnail.jpg")) + ");\n  background-position: center center;\n  background-size: cover;\n  background-repeat: no-repeat;\n  -webkit-transform-origin: bottom right;\n          transform-origin: bottom right;\n  width: 100%;\n  height: 100%;\n  right: 0;\n  bottom: 0;\n}\n#bygone-section .bygone-section-mobile[data-v-1ae8ae93] {\n  height: 35vh;\n  background: url(" + escape(__webpack_require__(/*! ../../../public/bygone-background.png */ "./public/bygone-background.png")) + ");\n  background-position: center center;\n  background-size: cover;\n  background-repeat: no-repeat;\n}\n.bg-dark[data-v-1ae8ae93] {\n  background-color: rgba(38, 39, 45, 0.8);\n}\n.jumbotron[data-v-1ae8ae93] {\n  background: url(" + escape(__webpack_require__(/*! ../../../public/jumbotron_background_two_moons.png */ "./public/jumbotron_background_two_moons.png")) + ") no-repeat;\n  background-size: cover;\n  height: 100vh;\n  position: relative;\n  border-radius: 0%;\n}\n.jumbotron .jumbotron-body[data-v-1ae8ae93] {\n  height: 100%;\n  z-index: 100;\n}\n.jumbotron .jumbotron-body h1[data-v-1ae8ae93] {\n  color: white;\n}\n.jumbotron .jumbotron-body h1[data-v-1ae8ae93]:after {\n  display: none;\n}\n.jumbotron .jumbotron-body button[data-v-1ae8ae93] {\n  padding: 1rem;\n}\n.jumbotron .jumbotron-body .cta-section[data-v-1ae8ae93] {\n  margin-left: 180px;\n}\n.jumbotron .jumbotron-body .cta-section .sto-photo[data-v-1ae8ae93] {\n  height: 8rem;\n  width: auto;\n  border-radius: 50%;\n  z-index: 200;\n  border: 2px solid #E1E1D9;\n}\n.jumbotron .jumbotron-body .cta-section .cta-description[data-v-1ae8ae93] {\n  height: 90%;\n  -webkit-transform: translate(-75px);\n          transform: translate(-75px);\n  padding-left: 120px;\n  padding-top: 0.4rem;\n}\n.jumbotron .jumbotron-body .cta-section .cta-description p[data-v-1ae8ae93] {\n  font-size: 0.42rem;\n}\n.jumbotron .jumbotron-body .herodot-logo[data-v-1ae8ae93] {\n  width: 40vw;\n  height: auto;\n}\n.jumbotron .jumbotron-body .herodot-mobile[data-v-1ae8ae93] {\n  width: auto;\n  height: auto;\n}\n.jumbotron .jumbotron-body .cta-section-mobile .sto-photo[data-v-1ae8ae93] {\n  height: 7rem;\n  width: auto;\n  border-radius: 50%;\n  z-index: 200;\n  border: 2px solid #E1E1D9;\n}\n.pre-footer p[data-v-1ae8ae93] {\n  font-weight: 500;\n}\n.pre-footer .social-media-icon[data-v-1ae8ae93] {\n  margin-right: 0.5rem;\n  margin-left: 0.5rem;\n}", ""]);
 
 // exports
 
@@ -75207,15 +75216,22 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("vue-aos", { attrs: { "animation-class": "fadeInUp animated" } }, [
-    _c("div", { staticClass: "mt-2 mb-2 text-primary text-center" }, [
+    _c("div", { staticClass: "text-primary text-center" }, [
       _c("img", { attrs: { src: _vm.image } }),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
       _vm._v(" "),
       _c("p", [
         _c("strong", [_vm._v(_vm._s(_vm.name))]),
+        _c("br"),
         _vm._v(" "),
         _c("br"),
         _vm._v("\n      " + _vm._s(_vm.description) + "\n    ")
-      ])
+      ]),
+      _vm._v(" "),
+      _c("br")
     ])
   ])
 }
@@ -75416,7 +75432,7 @@ var render = function() {
           _c("vue-timeline-update", {
             attrs: {
               date: new Date(),
-              title: "International competition",
+              title: "International competition [POSTPONED]",
               description:
                 "We’re flying to Jeddah to pitch in the Semi Finals of MIT Arab Start-Up Competition.",
               thumbnail:
@@ -76004,8 +76020,7 @@ var staticRenderFns = [
       _vm._v("\n            Historio wins ‘\n            "),
       _c("strong", [_vm._v("Most Creative Startup in Tunisia")]),
       _vm._v("’ taking it to Copenhagen's\n            "),
-      _c("strong", [_vm._v("Creative Business Cup")]),
-      _vm._v(". Our next stop: Jeddah.\n          ")
+      _c("strong", [_vm._v("Creative Business Cup")])
     ])
   },
   function() {
@@ -76756,27 +76771,38 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "text-left col col-md-5" }, [
-      _c("h2", [_vm._v("Latest Inquiries")]),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "\n            Amplifying our Gaming impact, we also aspire to be a Content Factory that provides insights and quests that we’ll call INQUIRIES - a term coined by Herodotus himself.\n            We’ll challenge perspectives, seek all truths, and question some answers.\n          "
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "text-left col col-md-5" }, [
+        _c("h2", [_vm._v("Latest Inquiries")]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "\n            Amplifying our Gaming impact, we also aspire to be a Content Factory that provides insights and quests that we’ll call INQUIRIES - a term coined by Herodotus himself.\n            We’ll challenge perspectives, seek all truths, and question some answers.\n          "
+          )
+        ]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c(
+          "button",
+          {
+            staticClass: "btn btn-primary",
+            attrs: {
+              "data-toggle": "modal",
+              "data-target": "#newsletter-modal"
+            }
+          },
+          [_vm._v("SEEK TO INQUEST")]
         )
       ]),
       _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c(
-        "button",
-        {
-          staticClass: "btn btn-primary",
-          attrs: { "data-toggle": "modal", "data-target": "#newsletter-modal" }
-        },
-        [_vm._v("SEEK TO INQUEST")]
-      )
+      _c("div", { staticClass: "text-right col-md-7" }, [
+        _c("img", {
+          attrs: { src: __webpack_require__(/*! ../../../public/ui/misc/maya-pyramid.svg */ "./public/ui/misc/maya-pyramid.svg") }
+        })
+      ])
     ])
   }
 ]
@@ -93497,7 +93523,7 @@ module.exports = "/images/jumbotron-background-shattered.jpg?4d4b4e4ad4e8a1c4c2e
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/jumbotron_background_two_moons.png?34f6b15f56b66e1908776f410757ad87";
+module.exports = "/images/jumbotron_background_two_moons.png?cdd427b23408a74092d24d987e14c7a0";
 
 /***/ }),
 
