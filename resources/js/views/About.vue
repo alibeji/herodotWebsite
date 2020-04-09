@@ -30,6 +30,7 @@ margin-right: 60px;"></scroll-icone>
             <h2 class="text-white">Our Story</h2>
           </vue-aos>
           <br />
+          <div class="content-story">
           <p>
             Herodot started off as a dream.
             <br />How future can awaken history, cooler.
@@ -46,6 +47,7 @@ margin-right: 60px;"></scroll-icone>
             <strong>Most Creative Startup in Tunisia</strong>’ taking it to Copenhagen's
             <strong>Creative Business Cup</strong>
           </p>
+          </div>
         </div>
       </div>
     </section>
@@ -271,8 +273,8 @@ h1 {
   overflow: hidden;
   p {
     color: white;
-    text-transform: uppercase;
-  }
+    font-size: 0.7rem;
+    }
   #team-background {
     transform: skewX(25deg);
     transform-origin: bottom left;

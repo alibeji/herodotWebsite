@@ -1,7 +1,7 @@
 <template>
   <footer class="container-fluid text-left">
   
-    <section class="row pt-4 pb-5  bg-primary">
+    <section class="row pt-3 pb-3 pl-5 pr-5 bg-primary">
     
       <div class="col-md-4">
         <h4>Contact</h4>
@@ -47,7 +47,7 @@ export default {
 
 <style type="text/scss" lang="scss" scoped>
 footer {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   h4 {
     font-size: 0.7rem;
     color: white;

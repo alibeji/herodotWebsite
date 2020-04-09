@@ -8,7 +8,7 @@
         <title>Herodot Studio</title>
         <link rel="icon" type="image/png" href="/herodot-icon.svg" />
         <link href=" {{ mix('css/app.css') }}" rel="stylesheet">
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
         <meta name="description" content="History, cooler! ♦ Indie Game Studio, developing BYGONE. ♦ Blog about inquiries arround eSports, History and Entrepreneurship. ♦ Most creative Tunisian startup in 2019.">
 
         <meta property="og:title" content="Herodot Studio">
