@@ -3,9 +3,9 @@
     <vue-aos animation-class="fadeIn animated">
       <vue-timeline-update
         :date="new Date()"
-        title="International competition [POSTPONED]"
-        description="We’re flying to Jeddah to pitch in the Semi Finals of MIT Arab Start-Up Competition."
-        thumbnail="https://www.opportunitiesforafricans.com/wp-content/uploads/2019/09/mit-arab-startup-competition-2020.jpg"
+        title="International competition [POSTPONED DUE TO COVID-19]"
+        description="We were flying to Jeddah to pitch in the Semi Finals of MIT Arab Start-Up Competition."
+        thumbnail="/images/MIT-PANARAB-postponed.jpg"
         category="March 2020"
         icon="emoji_events"
         color="custom-1"

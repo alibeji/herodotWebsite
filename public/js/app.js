@@ -10935,6 +10935,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 
 
@@ -16379,7 +16381,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "footer[data-v-5e81b4b5] {\n  font-size: 0.7rem;\n}\nfooter h4[data-v-5e81b4b5] {\n  font-size: 0.7rem;\n  color: white;\n}\nfooter address[data-v-5e81b4b5],\nfooter a[data-v-5e81b4b5],\nfooter p[data-v-5e81b4b5] {\n  font-size: 0.4rem;\n  color: white;\n}\n#copyright-section[data-v-5e81b4b5] {\n  background-color: #212529;\n  align-items: center;\n  justify-content: center;\n}\n#copyright-section p[data-v-5e81b4b5] {\n  color: #848c94;\n  line-height: 100%;\n  margin: 0;\n  font-size: 0.4rem;\n}\n#copyright-section a[data-v-5e81b4b5] {\n  color: #aaa;\n  text-decoration: none;\n}\n#copyright-section a[data-v-5e81b4b5]:hover {\n  color: white;\n}", ""]);
+exports.push([module.i, "footer[data-v-5e81b4b5] {\n  font-size: 0.8rem;\n}\nfooter h4[data-v-5e81b4b5] {\n  font-size: 0.7rem;\n  color: white;\n}\nfooter address[data-v-5e81b4b5],\nfooter a[data-v-5e81b4b5],\nfooter p[data-v-5e81b4b5] {\n  font-size: 0.4rem;\n  color: white;\n}\n#copyright-section[data-v-5e81b4b5] {\n  background-color: #212529;\n  align-items: center;\n  justify-content: center;\n}\n#copyright-section p[data-v-5e81b4b5] {\n  color: #848c94;\n  line-height: 100%;\n  margin: 0;\n  font-size: 0.4rem;\n}\n#copyright-section a[data-v-5e81b4b5] {\n  color: #aaa;\n  text-decoration: none;\n}\n#copyright-section a[data-v-5e81b4b5]:hover {\n  color: white;\n}", ""]);
 
 // exports
 
@@ -16475,7 +16477,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "h1[data-v-2995bb7e] {\n  border-left: 4px solid #E1E1D9;\n  text-align: center;\n}\n#team[data-v-2995bb7e] {\n  background: #213152;\n  overflow: hidden;\n}\n#team p[data-v-2995bb7e] {\n  color: white;\n  text-transform: uppercase;\n}\n#team #team-background[data-v-2995bb7e] {\n  -webkit-transform: skewX(25deg);\n          transform: skewX(25deg);\n  -webkit-transform-origin: bottom left;\n          transform-origin: bottom left;\n  overflow: hidden;\n  position: relative;\n}\n#team #team-background[data-v-2995bb7e]::before {\n  content: \"\";\n  -webkit-transform: skewX(-25deg);\n          transform: skewX(-25deg);\n  position: absolute;\n  background: url(" + escape(__webpack_require__(/*! ../../../public/photos/team/all.jpg */ "./public/photos/team/all.jpg")) + ");\n  background-position: center center;\n  background-size: cover;\n  background-repeat: no-repeat;\n  -webkit-transform-origin: bottom left;\n          transform-origin: bottom left;\n  width: 100%;\n  height: 100%;\n  right: 0;\n  bottom: 0;\n}\n.jumbotron[data-v-2995bb7e] {\n  background: url(" + escape(__webpack_require__(/*! ../../../public/jumbotron-background-shattered.jpg */ "./public/jumbotron-background-shattered.jpg")) + ") no-repeat;\n  background-size: cover;\n  height: 100vh;\n  position: relative;\n  border-radius: 0px;\n}\n.jumbotron .jumbotron-body[data-v-2995bb7e] {\n  height: 100%;\n  z-index: 100;\n}\n.jumbotron .jumbotron-body h1[data-v-2995bb7e] {\n  border: none;\n  border-bottom: 2px solid #E1E1D9;\n  color: white;\n  padding-bottom: 0.8rem;\n}\n.jumbotron .jumbotron-body h1[data-v-2995bb7e]:after {\n  display: none;\n}\n.jumbotron .jumbotron-body button[data-v-2995bb7e] {\n  padding: 1rem;\n}\n.jumbotron .jumbotron-body .manifesto-text[data-v-2995bb7e] {\n  color: white;\n  font-size: 0.8rem;\n}\n.partners-title-container[data-v-2995bb7e] {\n  background-image: url(" + escape(__webpack_require__(/*! ../../../public/ui/misc/column.svg */ "./public/ui/misc/column.svg")) + ");\n  background-repeat: no-repeat;\n  background-size: contain;\n  background-position: right;\n  margin-right: 4rem;\n}", ""]);
+exports.push([module.i, "h1[data-v-2995bb7e] {\n  border-left: 4px solid #E1E1D9;\n  text-align: center;\n}\n#team[data-v-2995bb7e] {\n  background: #213152;\n  overflow: hidden;\n}\n#team p[data-v-2995bb7e] {\n  color: white;\n  font-size: 0.7rem;\n}\n#team #team-background[data-v-2995bb7e] {\n  -webkit-transform: skewX(25deg);\n          transform: skewX(25deg);\n  -webkit-transform-origin: bottom left;\n          transform-origin: bottom left;\n  overflow: hidden;\n  position: relative;\n}\n#team #team-background[data-v-2995bb7e]::before {\n  content: \"\";\n  -webkit-transform: skewX(-25deg);\n          transform: skewX(-25deg);\n  position: absolute;\n  background: url(" + escape(__webpack_require__(/*! ../../../public/photos/team/all.jpg */ "./public/photos/team/all.jpg")) + ");\n  background-position: center center;\n  background-size: cover;\n  background-repeat: no-repeat;\n  -webkit-transform-origin: bottom left;\n          transform-origin: bottom left;\n  width: 100%;\n  height: 100%;\n  right: 0;\n  bottom: 0;\n}\n.jumbotron[data-v-2995bb7e] {\n  background: url(" + escape(__webpack_require__(/*! ../../../public/jumbotron-background-shattered.jpg */ "./public/jumbotron-background-shattered.jpg")) + ") no-repeat;\n  background-size: cover;\n  height: 100vh;\n  position: relative;\n  border-radius: 0px;\n}\n.jumbotron .jumbotron-body[data-v-2995bb7e] {\n  height: 100%;\n  z-index: 100;\n}\n.jumbotron .jumbotron-body h1[data-v-2995bb7e] {\n  border: none;\n  border-bottom: 2px solid #E1E1D9;\n  color: white;\n  padding-bottom: 0.8rem;\n}\n.jumbotron .jumbotron-body h1[data-v-2995bb7e]:after {\n  display: none;\n}\n.jumbotron .jumbotron-body button[data-v-2995bb7e] {\n  padding: 1rem;\n}\n.jumbotron .jumbotron-body .manifesto-text[data-v-2995bb7e] {\n  color: white;\n  font-size: 0.8rem;\n}\n.partners-title-container[data-v-2995bb7e] {\n  background-image: url(" + escape(__webpack_require__(/*! ../../../public/ui/misc/column.svg */ "./public/ui/misc/column.svg")) + ");\n  background-repeat: no-repeat;\n  background-size: contain;\n  background-position: right;\n  margin-right: 4rem;\n}", ""]);
 
 // exports
 
@@ -16514,7 +16516,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "h1[data-v-1ae8ae93] {\n  border-left: 4px solid #E1E1D9;\n  padding-left: 0.7rem;\n}\n.text-big[data-v-1ae8ae93] {\n  font-size: 0.75rem;\n}\n.roadmap-section[data-v-1ae8ae93] {\n  min-height: 100vh;\n}\n#bygone-section[data-v-1ae8ae93] {\n  background: #E1E1D9;\n  overflow: hidden;\n}\n#bygone-section p[data-v-1ae8ae93] {\n  color: #213152;\n  text-transform: uppercase;\n}\n#bygone-section #bygone-background[data-v-1ae8ae93] {\n  -webkit-transform: skewX(-45deg);\n          transform: skewX(-45deg);\n  -webkit-transform-origin: bottom right;\n          transform-origin: bottom right;\n  overflow: hidden;\n  position: relative;\n}\n#bygone-section #bygone-background[data-v-1ae8ae93]::before {\n  content: \"\";\n  -webkit-transform: skewX(45deg);\n          transform: skewX(45deg);\n  position: absolute;\n  background: url(" + escape(__webpack_require__(/*! ../../../public/bygone-thumbnail.jpg */ "./public/bygone-thumbnail.jpg")) + ");\n  background-position: center center;\n  background-size: cover;\n  background-repeat: no-repeat;\n  -webkit-transform-origin: bottom right;\n          transform-origin: bottom right;\n  width: 100%;\n  height: 100%;\n  right: 0;\n  bottom: 0;\n}\n#bygone-section .bygone-section-mobile[data-v-1ae8ae93] {\n  height: 35vh;\n  background: url(" + escape(__webpack_require__(/*! ../../../public/bygone-background.png */ "./public/bygone-background.png")) + ");\n  background-position: center center;\n  background-size: cover;\n  background-repeat: no-repeat;\n}\n.bg-dark[data-v-1ae8ae93] {\n  background-color: rgba(38, 39, 45, 0.8);\n}\n.jumbotron[data-v-1ae8ae93] {\n  background: url(" + escape(__webpack_require__(/*! ../../../public/jumbotron_background_two_moons.png */ "./public/jumbotron_background_two_moons.png")) + ") no-repeat;\n  background-size: cover;\n  height: 100vh;\n  position: relative;\n  border-radius: 0%;\n}\n.jumbotron .jumbotron-body[data-v-1ae8ae93] {\n  height: 100%;\n  z-index: 100;\n}\n.jumbotron .jumbotron-body h1[data-v-1ae8ae93] {\n  color: white;\n}\n.jumbotron .jumbotron-body h1[data-v-1ae8ae93]:after {\n  display: none;\n}\n.jumbotron .jumbotron-body button[data-v-1ae8ae93] {\n  padding: 1rem;\n}\n.jumbotron .jumbotron-body .cta-section[data-v-1ae8ae93] {\n  margin-left: 180px;\n}\n.jumbotron .jumbotron-body .cta-section .sto-photo[data-v-1ae8ae93] {\n  height: 8rem;\n  width: auto;\n  border-radius: 50%;\n  z-index: 200;\n  border: 2px solid #E1E1D9;\n}\n.jumbotron .jumbotron-body .cta-section .cta-description[data-v-1ae8ae93] {\n  height: 90%;\n  -webkit-transform: translate(-75px);\n          transform: translate(-75px);\n  padding-left: 120px;\n  padding-top: 0.4rem;\n}\n.jumbotron .jumbotron-body .cta-section .cta-description p[data-v-1ae8ae93] {\n  font-size: 0.42rem;\n}\n.jumbotron .jumbotron-body .herodot-logo[data-v-1ae8ae93] {\n  width: 40vw;\n  height: auto;\n}\n.jumbotron .jumbotron-body .herodot-mobile[data-v-1ae8ae93] {\n  width: auto;\n  height: auto;\n}\n.jumbotron .jumbotron-body .cta-section-mobile .sto-photo[data-v-1ae8ae93] {\n  height: 7rem;\n  width: auto;\n  border-radius: 50%;\n  z-index: 200;\n  border: 2px solid #E1E1D9;\n}\n.pre-footer p[data-v-1ae8ae93] {\n  font-weight: 500;\n}\n.pre-footer .social-media-icon[data-v-1ae8ae93] {\n  margin-right: 0.5rem;\n  margin-left: 0.5rem;\n}", ""]);
+exports.push([module.i, "h1[data-v-1ae8ae93] {\n  border-left: 4px solid #E1E1D9;\n  padding-left: 0.7rem;\n}\n.text-big[data-v-1ae8ae93] {\n  font-size: 0.75rem;\n}\n.roadmap-section[data-v-1ae8ae93] {\n  min-height: 100vh;\n}\n#bygone-section[data-v-1ae8ae93] {\n  background: #E1E1D9;\n  overflow: hidden;\n}\n#bygone-section p[data-v-1ae8ae93] {\n  color: #213152;\n  text-transform: uppercase;\n}\n#bygone-section #bygone-background[data-v-1ae8ae93] {\n  -webkit-transform: skewX(-45deg);\n          transform: skewX(-45deg);\n  -webkit-transform-origin: bottom right;\n          transform-origin: bottom right;\n  overflow: hidden;\n  position: relative;\n}\n#bygone-section #bygone-background[data-v-1ae8ae93]::before {\n  content: \"\";\n  -webkit-transform: skewX(45deg);\n          transform: skewX(45deg);\n  position: absolute;\n  background: url(" + escape(__webpack_require__(/*! ../../../public/bygone-thumbnail.jpg */ "./public/bygone-thumbnail.jpg")) + ");\n  background-position: center center;\n  background-size: cover;\n  background-repeat: no-repeat;\n  -webkit-transform-origin: bottom right;\n          transform-origin: bottom right;\n  width: 100%;\n  height: 100%;\n  right: 0;\n  bottom: 0;\n}\n#bygone-section .bygone-section-mobile[data-v-1ae8ae93] {\n  height: 35vh;\n  background: url(" + escape(__webpack_require__(/*! ../../../public/bygone-background.png */ "./public/bygone-background.png")) + ");\n  background-position: center center;\n  background-size: cover;\n  background-repeat: no-repeat;\n}\n.bg-dark[data-v-1ae8ae93] {\n  background-color: rgba(38, 39, 45, 0.8);\n}\n.jumbotron[data-v-1ae8ae93] {\n  background: url(" + escape(__webpack_require__(/*! ../../../public/jumbotron_background_two_moons.png */ "./public/jumbotron_background_two_moons.png")) + ") no-repeat;\n  background-size: cover;\n  height: 100vh;\n  position: relative;\n  border-radius: 0%;\n}\n.jumbotron .jumbotron-body[data-v-1ae8ae93] {\n  height: 100%;\n  z-index: 100;\n}\n.jumbotron .jumbotron-body h1[data-v-1ae8ae93] {\n  color: white;\n}\n.jumbotron .jumbotron-body h1[data-v-1ae8ae93]:after {\n  display: none;\n}\n.jumbotron .jumbotron-body button[data-v-1ae8ae93] {\n  padding: 1rem;\n}\n.jumbotron .jumbotron-body .cta-section[data-v-1ae8ae93] {\n  margin-left: 180px;\n}\n.jumbotron .jumbotron-body .cta-section .sto-photo[data-v-1ae8ae93] {\n  height: 8rem;\n  width: auto;\n  border-radius: 50%;\n  z-index: 200;\n  border: 2px solid #E1E1D9;\n}\n.jumbotron .jumbotron-body .cta-section .cta-description[data-v-1ae8ae93] {\n  height: 90%;\n  -webkit-transform: translate(-75px);\n          transform: translate(-75px);\n  background-color: rgba(38, 39, 45, 0.7);\n  border-radius: 0.4rem;\n  padding-left: 120px;\n  padding-top: 0.4rem;\n}\n.jumbotron .jumbotron-body .cta-section .cta-description p[data-v-1ae8ae93] {\n  font-size: 0.42rem;\n}\n.jumbotron .jumbotron-body .herodot-logo[data-v-1ae8ae93] {\n  width: 40vw;\n  height: auto;\n}\n.jumbotron .jumbotron-body .herodot-mobile[data-v-1ae8ae93] {\n  width: auto;\n  height: auto;\n}\n.jumbotron .jumbotron-body .cta-section-mobile .sto-photo[data-v-1ae8ae93] {\n  height: 7rem;\n  width: auto;\n  border-radius: 50%;\n  z-index: 200;\n  border: 2px solid #E1E1D9;\n}\n.pre-footer p[data-v-1ae8ae93] {\n  font-weight: 500;\n}\n.pre-footer .social-media-icon[data-v-1ae8ae93] {\n  margin-right: 0.5rem;\n  margin-left: 0.5rem;\n}\nhr[data-v-1ae8ae93] {\n  display: block;\n  margin-top: 0.5em;\n  margin-bottom: 0.5em;\n  margin-left: auto;\n  margin-right: auto;\n  border-style: inset;\n  border-width: 1px;\n}", ""]);
 
 // exports
 
@@ -75112,7 +75114,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("footer", { staticClass: "container-fluid text-left" }, [
-      _c("section", { staticClass: "row pt-4 pb-5  bg-primary" }, [
+      _c("section", { staticClass: "row pt-3 pb-3 pl-5 pr-5 bg-primary" }, [
         _c("div", { staticClass: "col-md-4" }, [
           _c("h4", [_vm._v("Contact")]),
           _vm._v(" "),
@@ -75432,11 +75434,10 @@ var render = function() {
           _c("vue-timeline-update", {
             attrs: {
               date: new Date(),
-              title: "International competition [POSTPONED]",
+              title: "International competition [POSTPONED DUE TO COVID-19]",
               description:
-                "We’re flying to Jeddah to pitch in the Semi Finals of MIT Arab Start-Up Competition.",
-              thumbnail:
-                "https://www.opportunitiesforafricans.com/wp-content/uploads/2019/09/mit-arab-startup-competition-2020.jpg",
+                "We were flying to Jeddah to pitch in the Semi Finals of MIT Arab Start-Up Competition.",
+              thumbnail: "/images/MIT-PANARAB-postponed.jpg",
               category: "March 2020",
               icon: "emoji_events",
               color: "custom-1"
@@ -75619,17 +75620,7 @@ var render = function() {
             _vm._v(" "),
             _c("br"),
             _vm._v(" "),
-            _vm._m(1),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "December 2017, two genuine devotees to history and technology, use their graduation project to start-up ‘Historio’."
-              )
-            ]),
-            _vm._v(" "),
-            _vm._m(2),
-            _vm._v(" "),
-            _vm._m(3)
+            _vm._m(1)
           ],
           1
         )
@@ -75662,7 +75653,7 @@ var render = function() {
           )
         ]),
         _vm._v(" "),
-        _vm._m(4),
+        _vm._m(2),
         _vm._v(" "),
         _c("br"),
         _vm._v(" "),
@@ -75847,7 +75838,7 @@ var render = function() {
             _vm._v(" "),
             _c("br"),
             _vm._v(" "),
-            _vm._m(5)
+            _vm._m(3)
           ],
           1
         )
@@ -75990,37 +75981,37 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("p", [
-      _vm._v("\n            Herodot started off as a dream.\n            "),
-      _c("br"),
-      _vm._v("How future can awaken history, cooler.\n          ")
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("p", [
-      _vm._v(
-        "\n            Incubated, Startup-Act Labelled, and pre-seed funded, Herodot sees the\n            "
-      ),
-      _c("strong", [_vm._v("first AR experience")]),
-      _vm._v(" come to the streets.\n            "),
-      _c("br"),
-      _vm._v(
-        "Five months later, we decide to pivot.\n            Best way to democratize history, attract more youth, and smoothly chain yesterday with tomorrow? Yup, gaming!\n          "
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("p", [
-      _vm._v("\n            Historio wins ‘\n            "),
-      _c("strong", [_vm._v("Most Creative Startup in Tunisia")]),
-      _vm._v("’ taking it to Copenhagen's\n            "),
-      _c("strong", [_vm._v("Creative Business Cup")])
+    return _c("div", { staticClass: "content-story" }, [
+      _c("p", [
+        _vm._v("\n            Herodot started off as a dream.\n            "),
+        _c("br"),
+        _vm._v("How future can awaken history, cooler.\n          ")
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "December 2017, two genuine devotees to history and technology, use their graduation project to start-up ‘Historio’."
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "\n            Incubated, Startup-Act Labelled, and pre-seed funded, Herodot sees the\n            "
+        ),
+        _c("strong", [_vm._v("first AR experience")]),
+        _vm._v(" come to the streets.\n            "),
+        _c("br"),
+        _vm._v(
+          "Five months later, we decide to pivot.\n            Best way to democratize history, attract more youth, and smoothly chain yesterday with tomorrow? Yup, gaming!\n          "
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v("\n            Historio wins ‘\n            "),
+        _c("strong", [_vm._v("Most Creative Startup in Tunisia")]),
+        _vm._v("’ taking it to Copenhagen's\n            "),
+        _c("strong", [_vm._v("Creative Business Cup")])
+      ])
     ])
   },
   function() {
@@ -76456,7 +76447,7 @@ var render = function() {
                               "div",
                               {
                                 staticClass:
-                                  "pr-2 text-uppercase cta-description bg-dark"
+                                  "pr-2 text-uppercase cta-description"
                               },
                               [
                                 _c("p", { staticClass: "text-white" }, [
@@ -76548,6 +76539,8 @@ var render = function() {
       _c("section", { staticClass: "container-fluid bg-snow pb-5 pt-5" }, [
         _c("div", { staticClass: "pre-footer mr-5 ml-5" }, [
           _vm._m(2),
+          _vm._v(" "),
+          _c("hr"),
           _vm._v(" "),
           _c("div", { staticClass: "row align-items-center mt-5" }, [
             _c("div", { staticClass: "col d-flex justify-content-center" }, [
