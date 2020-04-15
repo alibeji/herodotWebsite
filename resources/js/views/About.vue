@@ -177,62 +177,6 @@ margin-right: 60px;"></scroll-icone>
         </div>
       </div>
      
-     
-      <!-- <div class="row">
-        <div class="col-12 col-md-1"></div>
-        <div class="col-12 col-md-4">
-          <partner
-            name="Moovjee"
-            image="/photos/partners/moovjee-logo.png"
-            description="Is a movement that encourages young people and student entrepreneurs to start-up their own ventures. Their national prize got to our humble hands last year."
-          ></partner>
-        </div>
-        <div class="col-12 col-md-2"></div>
-        <div class="col-12 col-md-4">
-          <partner
-            name="Biatlabs"
-            image="/photos/partners/biatlabs-logo.jpg"
-            description="A hands-on experimental program providing entrepreneurs with mentoring, expertise, access to market and services that helped us explore, develop and scale our startup."
-          ></partner>
-        </div>
-      </div>
-      <br />
-      <div class="row">
-        <div class="col-12 col-md-1"></div>
-        <div class="col-12 col-md-4">
-          <partner
-            name="The Virtual Experience Company"
-            image="/photos/partners/vec-logo.png"
-            description="They design 3D and VR models of historic sites and artifacts, sharing the passion for cultural heritage sites. A passion we can surely relate to."
-          ></partner>
-        </div>
-        <div class="col-12 col-md-2"></div>
-        <div class="col-12 col-md-4">
-          <partner
-            name="TICDCE"
-            image="/photos/partners/ticdce-logo.png"
-            description="Tunis International Center for Digital Cultural Economy is a government incubator and accelerator of numerical solutions and innovation. This sends us hope regarding national efforts to push ambitious youth like us forward."
-          ></partner>
-        </div>
-      </div>
-      <br />
-      <div class="row">
-        <div class="col-12 col-md-1"></div>
-        <div class="col-12 col-md-4">
-          <partner
-            name="Big Shot Production"
-            image="/photos/partners/bigshot-logo.png"
-            description="Is an audiovisual production agency so youthful and creative and perfectionist. We like our image to be of an unexampled quality and that’s exactly why we chose them."
-          ></partner>
-        </div>
-        <div class="col-12 col-md-2"></div>
-        <div class="col-12 col-md-4">
-          <partner
-            name="Ministry of Cultural Affairs"
-            image="/photos/partners/mac-logo.png"
-            description="An active governmental body working hard to advance the agenda of cultural protection and enhancement. Their support means much to us."
-          ></partner>
-        </div>-->
 
 <div id="example">
 
