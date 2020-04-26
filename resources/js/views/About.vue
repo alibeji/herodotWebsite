@@ -31,22 +31,22 @@ margin-right: 60px;"></scroll-icone>
           </vue-aos>
           <br />
           <div class="content-story">
-          <p>
-            Herodot started off as a dream.
-            <br />How future can awaken history, cooler.
-          </p>
-          <p>December 2017, two genuine devotees to history and technology, use their graduation project to start-up ‘Historio’.</p>
-          <p>
-            Incubated, Startup-Act Labelled, and pre-seed funded, Herodot sees the
-            <strong>first AR experience</strong> come to the streets.
-            <br />Five months later, we decide to pivot.
-            Best way to democratize history, attract more youth, and smoothly chain yesterday with tomorrow? Yup, gaming!
-          </p>
-          <p>
-            Historio wins ‘
-            <strong>Most Creative Startup in Tunisia</strong>’ taking it to Copenhagen's
-            <strong>Creative Business Cup</strong>
-          </p>
+            <p>
+              Herodot started off as a dream.
+              <br />How future can awaken history, cooler.
+            </p>
+            <p>December 2017, two genuine devotees to history and technology, use their graduation project to start-up ‘Historio’.</p>
+            <p>
+              Incubated, Startup-Act Labelled, and pre-seed funded, Herodot sees the
+              <strong>first AR experience</strong> come to the streets.
+              <br />Five months later, we decide to pivot.
+              Best way to democratize history, attract more youth, and smoothly chain yesterday with tomorrow? Yup, gaming!
+            </p>
+            <p>
+              Historio wins ‘
+              <strong>Most Creative Startup in Tunisia</strong>’ taking it to Copenhagen's
+              <strong>Creative Business Cup</strong>
+            </p>
           </div>
         </div>
       </div>
@@ -176,63 +176,64 @@ margin-right: 60px;"></scroll-icone>
           </p>
         </div>
       </div>
-     
 
-<div id="example">
-
-  <div id="example">
-  <carousel-3d :autoplay="true" :autoplay-timeout="5000" :display="6" :border="0" :controls-visible="true" :width="400" :height="400" :space="500"> 
-    <slide :index="0" style="background-color:white;">
-   <partner
-            name="TICDCE"
-            image="/photos/partners/ticdce-logo.png"
-            description="Tunis International Center for Digital Cultural Economy is a government incubator and accelerator of numerical solutions and innovation. This sends us hope regarding national efforts to push ambitious youth like us forward."
-          ></partner>
-    </slide>
-     <slide :index="1" style="background-color:white;">
-      <partner
-            name="Big Shot Production"
-            image="/photos/partners/bigshot-logo.png"
-            description="Is an audiovisual production agency so youthful and creative and perfectionist. We like our image to be of an unexampled quality and that’s exactly why we chose them."
-          ></partner>
-    </slide>
-     <slide :index="2" style="background-color:white;">
-     <partner
-            name="Ministry of Cultural Affairs"
-            image="/photos/partners/mac-logo.png"
-            description="An active governmental body working hard to advance the agenda of cultural protection and enhancement. Their support means much to us."
-          ></partner>
-    
-    </slide>
-      <slide :index="3" style="background-color:white;">
-    <partner
-            name="The Virtual Experience Company"
-            image="/photos/partners/vec-logo.png"
-            description="They design 3D and VR models of historic sites and artifacts, sharing the passion for cultural heritage sites. A passion we can surely relate to."
-          ></partner>
-    
-    </slide>
-      <slide :index="4" style="background-color:white;">
-     <partner
-            name="Biatlabs"
-            image="/photos/partners/biatlabs-logo.jpg"
-            description="A hands-on experimental program providing entrepreneurs with mentoring, expertise, access to market and services that helped us explore, develop and scale our startup."
-          ></partner>
-    
-    </slide>
-    <slide :index="5" style="background-color:white;">
-    <partner
-            name="Moovjee"
-            image="/photos/partners/moovjee-logo.png"
-            description="Is a movement that encourages young people and student entrepreneurs to start-up their own ventures. Their national prize got to our humble hands last year."
-          ></partner>
-           </slide>
-  </carousel-3d>
-</div>
-
-
+      <div>
+        <div>
+          <carousel-3d
+            :autoplay="true"
+            :autoplay-timeout="5000"
+            :display="6"
+            :border="0"
+            :controls-visible="true"
+            :width="400"
+            :height="400"
+            :space="500"
+          >
+            <slide :index="0" style="background-color:white;">
+              <partner
+                name="TICDCE"
+                image="/photos/partners/ticdce-logo.png"
+                description="Tunis International Center for Digital Cultural Economy is a government incubator and accelerator of numerical solutions and innovation. This sends us hope regarding national efforts to push ambitious youth like us forward."
+              ></partner>
+            </slide>
+            <slide :index="1" style="background-color:white;">
+              <partner
+                name="Big Shot Production"
+                image="/photos/partners/bigshot-logo.png"
+                description="Is an audiovisual production agency so youthful and creative and perfectionist. We like our image to be of an unexampled quality and that’s exactly why we chose them."
+              ></partner>
+            </slide>
+            <slide :index="2" style="background-color:white;">
+              <partner
+                name="Ministry of Cultural Affairs"
+                image="/photos/partners/mac-logo.png"
+                description="An active governmental body working hard to advance the agenda of cultural protection and enhancement. Their support means much to us."
+              ></partner>
+            </slide>
+            <slide :index="3" style="background-color:white;">
+              <partner
+                name="The Virtual Experience Company"
+                image="/photos/partners/vec-logo.png"
+                description="They design 3D and VR models of historic sites and artifacts, sharing the passion for cultural heritage sites. A passion we can surely relate to."
+              ></partner>
+            </slide>
+            <slide :index="4" style="background-color:white;">
+              <partner
+                name="Biatlabs"
+                image="/photos/partners/biatlabs-logo.jpg"
+                description="A hands-on experimental program providing entrepreneurs with mentoring, expertise, access to market and services that helped us explore, develop and scale our startup."
+              ></partner>
+            </slide>
+            <slide :index="5" style="background-color:white;">
+              <partner
+                name="Moovjee"
+                image="/photos/partners/moovjee-logo.png"
+                description="Is a movement that encourages young people and student entrepreneurs to start-up their own ventures. Their national prize got to our humble hands last year."
+              ></partner>
+            </slide>
+          </carousel-3d>
         </div>
-   
+      </div>
     </section>
   </div>
 </template>
@@ -259,8 +260,6 @@ export default {
     });
   }
 };
-
-
 </script>
 
 <style type="text/scss" lang="scss" scoped>
@@ -277,7 +276,7 @@ h1 {
   p {
     color: white;
     font-size: 0.7rem;
-    }
+  }
   #team-background {
     transform: skewX(25deg);
     transform-origin: bottom left;
@@ -335,5 +334,4 @@ h1 {
   background-position: right;
   margin-right: 4rem;
 }
-
 </style>
