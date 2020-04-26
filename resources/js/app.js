@@ -4,6 +4,7 @@ require('./bootstrap');
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Vuex from 'vuex'
+import Carousel3d from 'vue-carousel-3d';
 
 import * as Sentry from '@sentry/browser';
 import * as Integrations from '@sentry/integrations';
@@ -17,6 +18,7 @@ Sentry.init({
 
 Vue.use(VueRouter)
 Vue.use(Vuex)
+Vue.use(Carousel3d)
 
 import VueTimeline from "@growthbunker/vuetimeline";
 Vue.use(VueTimeline, {

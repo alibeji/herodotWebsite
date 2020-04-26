@@ -48,7 +48,7 @@
             <div class="d-none d-md-flex flex-row align-items-center cta-section">
               <img src="../../../public/photos/sto.jpg" class="sto-photo" />
 
-              <div class="pr-2 text-uppercase cta-description bg-dark">
+              <div class="pr-2 text-uppercase cta-description">
                 <p class="text-white">
                   <span class="text-big">Hi. I’m Stoufa.</span>
                   <br />I’m glad you landed here.
@@ -156,7 +156,7 @@ margin-right: 60px;"></scroll-icone>
             <img src="../../../public/ui/misc/maya-pyramid.svg" alt="Maya Pyramid Isometric">
           </div>
         </div>
-
+  <hr>
         <div class="row align-items-center mt-5">
           <div class="col d-flex justify-content-center">
             <a href="https://www.facebook.com/Herodot-Studio-108223450781501/" target="_blank">
@@ -335,6 +335,8 @@ h1 {
       .cta-description {
         height: 90%;
         transform: translate(-75px);
+        background-color: rgb(38, 39, 45, 0.7);
+        border-radius: 0.4rem;
         padding-left: 120px;
         padding-top: 0.4rem;
         p {
@@ -370,5 +372,11 @@ h1 {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
   }
+}
+hr {
+  display: block;
+  margin-top: 0.5em auto;
+  border-style: inset;
+  border-width: 1px;
 }
 </style>
