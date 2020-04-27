@@ -137,7 +137,6 @@ margin-right: 60px;"></scroll-icone>
                 linkedin-username="wael-chettaoui-260688168"
               ></team-member>
             </div>
-
             <div class="col-md-4">
               <team-member
                 name="Firas Khemiri"
@@ -156,6 +155,35 @@ margin-right: 60px;"></scroll-icone>
                 linkedin-username="raed-hsasna-577867108"
               ></team-member>
             </div>
+
+            <div class="col-md-4">
+              <team-member
+                name="Olfa Hammami"
+                image="/photos/team/oh.jpg"
+                position="Concept Artist"
+                quote="Poetry Dynamo"
+                linkedin-username="wael-chettaoui-260688168"
+              ></team-member>
+            </div>
+            <div class="col-md-4">
+              <team-member
+                name="Nour Bouzeidi"
+                image="/photos/team/nb.jpg"
+                position="3D Artist"
+                quote="Digital Overlord"
+                linkedin-username="firas-kh"
+              ></team-member>
+            </div>
+            <div class="col-md-4">
+              <team-member
+                name="Haifa Baoueb"
+                image="/photos/team/hb.jpg"
+                position="Digital Artist"
+                quote="Warden of the Scrolls"
+                linkedin-username="raed-hsasna-577867108"
+              ></team-member>
+            </div>
+
           </div>
         </div>
         <div class="col-md-1"></div>

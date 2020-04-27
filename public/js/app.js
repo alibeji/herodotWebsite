@@ -10938,6 +10938,34 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -75824,6 +75852,57 @@ var render = function() {
                       name: "Raed Hsasna",
                       image: "/photos/team/rh.jpg",
                       position: "Copywriter",
+                      quote: "Warden of the Scrolls",
+                      "linkedin-username": "raed-hsasna-577867108"
+                    }
+                  })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "col-md-4" },
+                [
+                  _c("team-member", {
+                    attrs: {
+                      name: "Olfa Hammami",
+                      image: "/photos/team/oh.jpg",
+                      position: "Concept Artist",
+                      quote: "Poetry Dynamo",
+                      "linkedin-username": "wael-chettaoui-260688168"
+                    }
+                  })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "col-md-4" },
+                [
+                  _c("team-member", {
+                    attrs: {
+                      name: "Nour Bouzeidi",
+                      image: "/photos/team/nb.jpg",
+                      position: "3D Artist",
+                      quote: "Digital Overlord",
+                      "linkedin-username": "firas-kh"
+                    }
+                  })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "col-md-4" },
+                [
+                  _c("team-member", {
+                    attrs: {
+                      name: "Haifa Baoueb",
+                      image: "/photos/team/hb.jpg",
+                      position: "Digital Artist",
                       quote: "Warden of the Scrolls",
                       "linkedin-username": "raed-hsasna-577867108"
                     }
