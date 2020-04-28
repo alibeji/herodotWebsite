@@ -162,7 +162,7 @@ margin-right: 60px;"></scroll-icone>
                 image="/photos/team/oh.jpg"
                 position="Concept Artist"
                 quote="Poetry Dynamo"
-                linkedin-username="wael-chettaoui-260688168"
+                linkedin-username="olfahammami"
               ></team-member>
             </div>
             <div class="col-md-4">
@@ -171,7 +171,7 @@ margin-right: 60px;"></scroll-icone>
                 image="/photos/team/nb.jpg"
                 position="3D Artist"
                 quote="Digital Overlord"
-                linkedin-username="firas-kh"
+                linkedin-username="mohamed-nour-a50459187"
               ></team-member>
             </div>
             <div class="col-md-4">
@@ -180,7 +180,7 @@ margin-right: 60px;"></scroll-icone>
                 image="/photos/team/hb.jpg"
                 position="Digital Artist"
                 quote="Warden of the Scrolls"
-                linkedin-username="raed-hsasna-577867108"
+                linkedin-username=""
               ></team-member>
             </div>
 
@@ -193,7 +193,7 @@ margin-right: 60px;"></scroll-icone>
       <div class="row partners-title-container">
         <div class="col-md-4"></div>
         <div class="col-md-5">
-          <vue-aos animation-class="fadeInLeft animated">
+          <vue-aos animation-class="fadeIn animated">
             <h2>They Trust us</h2>
           </vue-aos>
           <br />
