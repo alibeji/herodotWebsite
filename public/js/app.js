@@ -75871,7 +75871,7 @@ var render = function() {
                       image: "/photos/team/oh.jpg",
                       position: "Concept Artist",
                       quote: "Poetry Dynamo",
-                      "linkedin-username": "wael-chettaoui-260688168"
+                      "linkedin-username": "olfahammami"
                     }
                   })
                 ],
@@ -75888,7 +75888,7 @@ var render = function() {
                       image: "/photos/team/nb.jpg",
                       position: "3D Artist",
                       quote: "Digital Overlord",
-                      "linkedin-username": "firas-kh"
+                      "linkedin-username": "mohamed-nour-a50459187"
                     }
                   })
                 ],
@@ -75905,7 +75905,7 @@ var render = function() {
                       image: "/photos/team/hb.jpg",
                       position: "Digital Artist",
                       quote: "Warden of the Scrolls",
-                      "linkedin-username": "raed-hsasna-577867108"
+                      "linkedin-username": ""
                     }
                   })
                 ],
@@ -75927,11 +75927,9 @@ var render = function() {
           "div",
           { staticClass: "col-md-5" },
           [
-            _c(
-              "vue-aos",
-              { attrs: { "animation-class": "fadeInLeft animated" } },
-              [_c("h2", [_vm._v("They Trust us")])]
-            ),
+            _c("vue-aos", { attrs: { "animation-class": "fadeIn animated" } }, [
+              _c("h2", [_vm._v("They Trust us")])
+            ]),
             _vm._v(" "),
             _c("br"),
             _vm._v(" "),
