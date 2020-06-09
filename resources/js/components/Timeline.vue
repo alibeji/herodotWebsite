@@ -17,7 +17,7 @@
         title="Kickstarter compaign"
         description="Our crowdfunding campaign goes live on Kickstarter.
           <br />Your contribution will help us create the best value for our community."
-        category="Spring 2020"
+        category="Summer 2020"
         icon="golf_course"
         color="custom-2"
       />
@@ -28,7 +28,7 @@
         title="Alpha release"
         description="Alpha version comes out!
           <br />Go ahead and register now, to be among our first seekers!"
-        category="Summer 2020"
+        category="Fall 2020"
         icon="code"
         color="custom-3"
       />
@@ -39,7 +39,7 @@
         title="Beta release"
         description="Feedback implementation and closed Beta preparation!
           <br />Your contribution will make this happen."
-        category="Fall 2020"
+        category="Spring 2021"
         icon="emoji_flags"
         color="custom-4"
         is-last
