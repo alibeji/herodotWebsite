@@ -3,10 +3,10 @@
     <vue-aos animation-class="fadeIn animated">
       <vue-timeline-update
         :date="new Date()"
-        title="International competition [POSTPONED DUE TO COVID-19]"
-        description="We were flying to Jeddah to pitch in the Semi Finals of MIT Arab Start-Up Competition."
+        title="International competition [DGITAL PARTICIPATION DUE TO COVID-19]"
+        description="We were flying to Jeddah to pitch in the Semi Finals of MIT Arab Start-Up Competition. And now we are participating online."
         thumbnail="/images/MIT-PANARAB-postponed.jpg"
-        category="March 2020"
+        category="June 2020"
         icon="emoji_events"
         color="custom-1"
       />
