@@ -72,6 +72,7 @@ margin-right: 60px;"></scroll-icone>
         <div class="col-md-1"></div>
         <div class="col-md-10">
           <div class="row text-center">
+            
             <div class="col-md-4">
               <team-member
                 name="Youssef Boufaied"
@@ -109,15 +110,7 @@ margin-right: 60px;"></scroll-icone>
                 linkedin-username="marouan-sami-757a5098"
               ></team-member>
             </div>
-            <div class="col-md-4">
-              <team-member
-                name="M. Habib Bouassida"
-                image="/photos/team/mhb.jpg"
-                position="CMO"
-                quote="Wizard of Shiny Moments"
-                linkedin-username="mohamed-habib-bouassida-317609181"
-              ></team-member>
-            </div>
+           
             <div class="col-md-4">
               <team-member
                 name="Ali Beji"
@@ -137,22 +130,14 @@ margin-right: 60px;"></scroll-icone>
                 linkedin-username="wael-chettaoui-260688168"
               ></team-member>
             </div>
+          
             <div class="col-md-4">
               <team-member
-                name="Firas Khemiri"
-                image="/photos/team/fk.jpg"
-                position="Game Dev"
-                quote="Digital Overlord"
-                linkedin-username="firas-kh"
-              ></team-member>
-            </div>
-            <div class="col-md-4">
-              <team-member
-                name="Raed Hsasna"
-                image="/photos/team/rh.jpg"
-                position="Copywriter"
+                name="Houssem Eddine Souaf"
+                image="/photos/team/hs.jpg"
+                position="Digital Artist"
                 quote="Warden of the Scrolls"
-                linkedin-username="raed-hsasna-577867108"
+                linkedin-username=""
               ></team-member>
             </div>
 
@@ -165,6 +150,15 @@ margin-right: 60px;"></scroll-icone>
                 linkedin-username="olfahammami"
               ></team-member>
             </div>
+               <div class="col-md-4">
+              <team-member
+                name="Haifa Baoueb"
+                image="/photos/team/hb.jpg"
+                position="Digital Artist"
+                quote="Warden of the Scrolls"
+                linkedin-username=""
+              ></team-member>
+            </div>
             <div class="col-md-4">
               <team-member
                 name="Nour Bouzeidi"
@@ -174,16 +168,17 @@ margin-right: 60px;"></scroll-icone>
                 linkedin-username="mohamed-nour-a50459187"
               ></team-member>
             </div>
+         
+           
             <div class="col-md-4">
               <team-member
-                name="Haifa Baoueb"
-                image="/photos/team/hb.jpg"
-                position="Digital Artist"
+                name="Flow"
+                image="/photos/team/flow.jpg"
+                position="Chief of Joyment"
                 quote="Warden of the Scrolls"
                 linkedin-username=""
               ></team-member>
             </div>
-
           </div>
         </div>
         <div class="col-md-1"></div>
