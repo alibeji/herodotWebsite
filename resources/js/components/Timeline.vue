@@ -3,8 +3,8 @@
     <vue-aos animation-class="fadeIn animated">
       <vue-timeline-update
         :date="new Date()"
-        title="International competition [DGITAL PARTICIPATION DUE TO COVID-19]"
-        description="We were flying to Jeddah to pitch in the Semi Finals of MIT Arab Start-Up Competition. And now we are participating online."
+        title="International competition [DIGITAL PARTICIPATION DUE TO COVID-19]"
+        description="We were going to fly to...Finals of the MIT Arab Star-Up Competition. However flights were cancelled, Instead we are now participating online."
         thumbnail="/images/MIT-PANARAB-postponed.jpg"
         category="June 2020"
         icon="emoji_events"
@@ -15,7 +15,7 @@
       <vue-timeline-update
         :date="new Date()"
         title="Kickstarter compaign"
-        description="Our crowdfunding campaign goes live on Kickstarter.
+        description="Our crowdfunding compaign goes live on Kickstarter.
           <br />Your contribution will help us create the best value for our community."
         category="Summer 2020"
         icon="golf_course"
