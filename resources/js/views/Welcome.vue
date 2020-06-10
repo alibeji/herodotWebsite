@@ -142,14 +142,14 @@ margin-right: 60px;"></scroll-icone>
           <br />
           <p>
             Amplifying our Gaming impact, we also aspire to be a Content Factory that provides insights and quests that we’ll call INQUIRIES - a term coined by Herodotus himself.
-            We’ll challenge perspectives, seek all truths, and question some answers.
+            Challenge Perspective. Seek all truth. Question the answers.
           </p>
           <br />
           <button
             class="btn btn-primary"
             data-toggle="modal"
             data-target="#newsletter-modal"
-          >SEEK TO INQUEST</button>
+          >INQUIRE</button>
          
         </div>
          <div class="text-right col-md-7">

@@ -172,7 +172,7 @@ margin-right: 60px;"></scroll-icone>
               <team-member
                 name="Flow"
                 image="/photos/team/flow.jpg"
-                position="Chief of Joyment"
+                position="Chief of Happiness"
                 quote="Chief Troublemaker"
                 linkedin-username
               ></team-member>
