@@ -159,14 +159,14 @@ margin-right: 60px;"></scroll-icone>
   <hr>
         <div class="row align-items-center mt-5">
           <div class="col d-flex justify-content-center">
-            <a href="https://www.facebook.com/Herodot-Studio-108223450781501/" target="_blank">
+            <a href="https://www.facebook.com/HerodotStudioTN/" target="_blank">
               <svg viewBox="0 0 113 113" class="social-media-icon">
                 <path
                   d="M48.69 39.28V47h-5.64v9.41h5.64v28h11.58v-28H68s.73-4.51 1.09-9.45h-8.78v-6.45a2.74 2.74 0 012.52-2.26h6.31v-9.8h-8.58c-12.16 0-11.87 9.42-11.87 10.83z"
                 />
               </svg>
             </a>
-            <a href="https://www.instagram.com/herodotstudioTN/" target="_blank">
+            <a href="https://www.instagram.com/herodotstudio/" target="_blank">
               <svg viewBox="-256 -256 1024 1024" class="social-media-icon">
                 <path
                   d="m437 0h-362c-41.351562 0-75 33.648438-75 75v362c0 41.351562 33.648438 75 75 75h362c41.351562 0 75-33.648438 75-75v-362c0-41.351562-33.648438-75-75-75zm-180 390c-74.441406 0-135-60.558594-135-135s60.558594-135 135-135 135 60.558594 135 135-60.558594 135-135 135zm150-240c-24.8125 0-45-20.1875-45-45s20.1875-45 45-45 45 20.1875 45 45-20.1875 45-45 45zm0 0"
