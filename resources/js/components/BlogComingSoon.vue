@@ -9,6 +9,7 @@
     <div v-if="showCta">
       <button
         class="btn btn-primary"
+        id="open-newsletter-button"
         data-toggle="modal"
         data-target="#newsletter-modal"
       >SEEK TO INQUEST</button>
