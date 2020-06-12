@@ -137,26 +137,26 @@ margin-right: 60px;"></scroll-icone>
     <section class="container-fluid bg-snow pb-5 pt-5">
       <div class="pre-footer mr-5 ml-5">
         <div class="row">
-        <div class="text-left col col-md-5">
-          <h2>Latest Inquiries</h2>
-          <br />
-          <p>
-            Amplifying our Gaming impact, we also aspire to be a Content Factory that provides insights and quests that we’ll call INQUIRIES - a term coined by Herodotus himself.
-            Challenge Perspective. Seek all truth. Question the answers.
-          </p>
-          <br />
-          <button
-            class="btn btn-primary"
-            data-toggle="modal"
-            data-target="#newsletter-modal"
-          >INQUIRE</button>
-         
-        </div>
-         <div class="text-right col-md-7">
-            <img src="../../../public/ui/misc/maya-pyramid.svg" alt="Maya Pyramid Isometric">
+          <div class="text-left col col-md-5">
+            <h2>Latest Inquiries</h2>
+            <br />
+            <p>
+              Amplifying our Gaming impact, we also aspire to be a Content Factory that provides insights and quests that we’ll call INQUIRIES - a term coined by Herodotus himself.
+              Challenge Perspective. Seek all truth. Question the answers.
+            </p>
+            <br />
+            <button
+              class="btn btn-primary"
+              id="open-newsletter-button"
+              data-toggle="modal"
+              data-target="#newsletter-modal"
+            >INQUIRE</button>
+          </div>
+          <div class="text-right col-md-7">
+            <img src="../../../public/ui/misc/maya-pyramid.svg" alt="Maya Pyramid Isometric" />
           </div>
         </div>
-  <hr>
+        <hr />
         <div class="row align-items-center mt-5">
           <div class="col d-flex justify-content-center">
             <a href="https://www.facebook.com/HerodotStudioTN/" target="_blank">
@@ -364,7 +364,6 @@ h1 {
   }
 }
 .pre-footer {
-
   p {
     font-weight: 500;
   }
