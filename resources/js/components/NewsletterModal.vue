@@ -26,7 +26,12 @@
               <input name="email" id="email" v-model="email" required />
             </div>
             <div class="mt-3 mb-2">
-              <button class="btn" @click="submit" :disabled="!isValidForm">Subscribe</button>
+              <button
+                class="btn"
+                id="subscribe-button"
+                @click="submit"
+                :disabled="!isValidForm"
+              >Subscribe</button>
             </div>
           </div>
           <div :class="{'d-none': !mailSent}">
