@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /cookies/
+Noindex: /cookies/
+Disallow: /404/
+Noindex: /404/  
+
+Sitemap: https://herodotstudio.com/sitemap.xml
