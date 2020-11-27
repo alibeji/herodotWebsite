@@ -1,0 +1,43 @@
+stages:
+  - lint
+  - build
+  - deploy
+
+variables:
+  GIT_STRATEGY: fetch
+  GIT_DEPTH: 1
+
+cache:
+  paths:
+    - node_modules/
+
+lint:
+  image: node:10
+  stage: lint
+  before_script:
+    - npm install
+  script:
+    - npm run lint
+
+build:
+  image: node:10
+  stage: build
+  before_script:
+    - npm install
+  script:
+    - npm run build
+
+pages:
+  image: node:10
+  stage: deploy
+  before_script:
+    - npm install
+  script:
+    - npm run build
+    - mv public public-vue # GitLab Pages hooks on the public folder
+    - mv dist public
+  artifacts:
+    paths:
+      - public/
+  only:
+    - master
