@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav-bar></nav-bar>
+    <nav-bar :wantotrip-page="wantotrip"></nav-bar>
     <Nuxt />
     <footers></footers>
     <client-only>
@@ -17,6 +17,16 @@ export default {
     NavBar,
     Footers,
     Consent,
+  },
+  data() {
+    return {
+      wantotrip: false,
+    }
+  },
+  beforeUpdate() {
+    if (this.$nuxt.$route.path === '/wantotrip-pro-edition') {
+      this.wantotrip = true
+    }
   },
 }
 </script>
