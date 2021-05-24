@@ -3,23 +3,26 @@
     <landing-page-jumbotron></landing-page-jumbotron>
     <!-- <landing-page-about-us /> -->
     <landing-page-our-game />
-    <landing-page-latest-news />
-    <landing-page-our-agenda />
+    <landing-page-wantotrip-section />
+    <!-- <landing-page-latest-news />
+    <landing-page-our-agenda /> -->
   </div>
 </template>
 <script>
 import LandingPageJumbotron from '@/components/landing-page/jumbotron.vue'
 // import LandingPageAboutUs from '@/components/landing-page/about-us.vue'
 import LandingPageOurGame from '@/components/landing-page/our-game.vue'
-import LandingPageLatestNews from '@/components/landing-page/latest-news.vue'
-import LandingPageOurAgenda from '@/components/landing-page/our-agenda.vue'
+import LandingPageWantotripSection from '@/components/landing-page/wantotrip-section.vue'
+// import LandingPageLatestNews from '@/components/landing-page/latest-news.vue'
+// import LandingPageOurAgenda from '@/components/landing-page/our-agenda.vue'
 export default {
   components: {
     LandingPageJumbotron,
     // LandingPageAboutUs,
     LandingPageOurGame,
-    LandingPageLatestNews,
-    LandingPageOurAgenda,
+    LandingPageWantotripSection,
+    // LandingPageLatestNews,
+    // LandingPageOurAgenda,
   },
   head() {
     return {

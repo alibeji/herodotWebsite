@@ -9,9 +9,9 @@
         <a href="https://www.facebook.com/HerodotStudio/" target="_blank"
           ><img src="footer_socials_facebook.svg" alt="" class="social-link"
         /></a>
-        <!-- <a href="#"
+        <a href="#"
           ><img src="footer_socials_medium.svg" alt="" class="social-link"
-        /></a> -->
+        /></a>
       </div>
     </div>
     <div class="footer-content">

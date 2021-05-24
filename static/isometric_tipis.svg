@@ -1,5 +1,4 @@
-<template>
-  <svg
+<svg
     id="isometric-tipi-hills"
     width="85%"
     height="auto"
@@ -7,6 +6,28 @@
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
+  <style type='text/css'>
+#mid-layer {
+  animation: mid 3s ease-in-out infinite alternate;
+  transform-origin: center;
+}
+#tipis {
+  animation: mid 2.4s ease-in-out infinite alternate;
+  transform-origin: center;
+}
+#bot-layer {
+  transform-origin: center;
+}
+
+@keyframes mid {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(50px);
+  }
+}
+  </style>
     <g id="tipi 1">
       <g id="bot-layer" opacity="0.3">
         <path
@@ -845,31 +866,3 @@
       </linearGradient>
     </defs>
   </svg>
-</template>
-<style lang="scss" scoped>
-#isometric-tipi-hills {
-  margin-right: 5%;
-  margin-left: 5%;
-  margin-top: 10%;
-}
-#mid-layer {
-  animation: mid 3s ease-in-out infinite alternate;
-  transform-origin: center;
-}
-#tipis {
-  animation: mid 2.4s ease-in-out infinite alternate;
-  transform-origin: center;
-}
-#bot-layer {
-  transform-origin: center;
-}
-
-@keyframes mid {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(50px);
-  }
-}
-</style>

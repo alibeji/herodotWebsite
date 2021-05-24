@@ -1,7 +1,8 @@
 <template>
-  <div id="our-game">
+  <div id="wantotrip-section">
+    <img src="wantotrip-thumbnail.jpg" alt="" class="bygone-thumbnail" />
     <div class="our-game-text">
-      <h2>Our Upcoming Game</h2>
+      <h2>Wantotrip: Pro Edition</h2>
       <br />
       <p>
         An immersive game in which history, strategy, and augmented reality
@@ -10,21 +11,35 @@
         coming up to mobile and desktop.
       </p>
       <br />
-      <a href="https://playbygone.com/"
-        ><button class="main-button">Game Website</button></a
+      <a href="/wantotrip-pro-edition"
+        ><button class="main-button">Book a Demo</button></a
+      >
+      <a href="/wantotrip-pro-edition"
+        ><button class="secondary-button">Learn More</button></a
       >
     </div>
-    <img src="bygone-thumbnail.jpg" alt="" class="bygone-thumbnail" />
   </div>
 </template>
 <style lang="scss" scoped>
 @import '@/assets/scss/style.scss';
-#our-game {
+#wantotrip-section {
+  .main-button {
+    background-image: linear-gradient(
+      -90deg,
+      rgb(80, 191, 176) 0%,
+      rgb(85, 208, 188) 50%,
+      rgb(245, 243, 252) 50%,
+      rgb(242, 250, 252) 100%
+    );
+    &:hover {
+      color: rgb(80, 191, 176);
+    }
+  }
   min-height: 85vh;
   margin-right: 5vw;
   margin-left: 5vw;
   margin-top: 10em;
-  margin-bottom: 10vh;
+  margin-bottom: 20vh;
   background-color: rgba(12, 29, 72, 0.6);
   display: flex;
   align-items: center;
@@ -32,33 +47,36 @@
   flex-direction: row;
   border-radius: 20px;
   box-shadow: 0 70px 140px 0 rgba(1, 3, 14, 0.45);
-  background-image: url(/our_game_top_right.svg), url(/our_game_bottom_left.svg),
-    linear-gradient(
-      -135deg,
-      rgba(49, 144, 170, 0.3) 0%,
-      rgba(49, 144, 170, 0) 100%
-    );
-  background-size: auto 40%, auto 40%, contain;
+  background-image: linear-gradient(
+    -135deg,
+    rgba(49, 170, 140, 0.3) 0%,
+    rgba(49, 170, 150, 0.212) 100%
+  );
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: top right, bottom left, top left;
+  background-position: top left;
   .our-game-text {
     width: 40%;
     margin-left: 10%;
     padding-right: 5em;
+    text-align: left;
+    p {
+      text-align: justify;
+    }
   }
   .bygone-thumbnail {
     width: 40%;
-    margin-left: 0%;
-    margin-right: 10%;
+    margin-left: 10%;
+    margin-right: 0%;
     height: auto;
     border-radius: 10px;
     // border: solid 4px $gradient2PaleBlue;
-    box-shadow: 0 70px 140px 0 rgba(1, 3, 14, 0.45);
+    box-shadow: 0 70px 140px 0 rgba(3, 97, 81, 0.45);
   }
 }
 @media only screen and (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
-  #our-game {
-    flex-direction: column;
+  #wantotrip-section {
+    flex-direction: column-reverse;
     .our-game-text {
       width: 70%;
       margin: 0 0 0 0;
@@ -73,8 +91,8 @@
   }
 }
 @media only screen and (max-width: $breakpoint-md) {
-  #our-game {
-    flex-direction: column;
+  #wantotrip-section {
+    flex-direction: column-reverse;
     .our-game-text {
       width: 90%;
       margin: 0 0 0 0;

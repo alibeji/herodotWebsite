@@ -16,25 +16,22 @@
         >
       </div>
     </div>
+    <isometric-tipis class="jumbotron-decoration" />
     <img
-      src="/background_jumbotron_pyramids.svg"
-      alt=""
-      class="jumbotron-decoration"
-    />
-    <img
-      src="/jumbotron_background_pyramids_medium.svg"
+      src="/isometric_tipis.svg"
       alt=""
       class="jumbotron-decoration-medium"
     />
-    <img
-      src="/jumbotron_background_pyramids_small.svg"
-      alt=""
-      class="jumbotron-decoration-small"
-    />
+    <img src="/isometric_tipis.svg" alt="" class="jumbotron-decoration-small" />
   </div>
 </template>
 <script>
-export default {}
+import IsometricTipis from './isometric-tipis.vue'
+export default {
+  components: {
+    IsometricTipis,
+  },
+}
 </script>
 <style lang="scss" scoped>
 @import '@/assets/scss/style.scss';
@@ -47,7 +44,8 @@ export default {}
   .jumbotron-decoration {
     width: 50%;
     height: auto;
-    align-self: flex-start;
+    align-self: center;
+    justify-self: center;
   }
   .jumbotron-decoration-medium {
     display: none;
@@ -69,7 +67,7 @@ export default {}
       color: $almostWhite;
       margin-top: 3em;
       font-size: 70px;
-      font-weight: 800;
+      font-weight: 500;
     }
     .socials {
       width: 100%;
@@ -108,7 +106,7 @@ export default {}
       display: none;
     }
     .jumbotron-contents {
-      margin-top: 4em;
+      margin-top: 6em;
       width: 70%;
       text-align: center;
       h1 {
@@ -144,7 +142,7 @@ export default {}
       width: 100%;
     }
     .jumbotron-contents {
-      margin-top: 4em;
+      margin-top: 6em;
       width: 90%;
       h1 {
         margin-top: 0;

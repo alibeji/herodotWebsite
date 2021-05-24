@@ -8,7 +8,7 @@
       <div v-for="member in members" :key="member.index" class="member">
         <div class="member-image">
           <img :src="member.photo" alt="" class="photo" />
-          <img :src="member.role" class="role" />
+          <!-- <img :src="member.role" class="role" /> -->
         </div>
 
         <h3>
@@ -150,6 +150,8 @@ export default {
           margin: 2.5% 2.5% 2.5% 2.5%;
           position: relative;
           border-radius: 50%;
+          border: solid 3px $almostWhite;
+          background-color: white;
         }
         .role {
           width: 100%;
