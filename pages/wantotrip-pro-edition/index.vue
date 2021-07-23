@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="wantotrip-details">
-      <h2>Hello World</h2>
+      <h2>Wantotrip: Pro Edition</h2>
       <div class="cards">
         <b-card
           title="1 Hour"
@@ -36,13 +36,14 @@
           img-top
           style="max-width: 20rem"
           class="mb-2 card"
+          @click="showGameStructure = true"
         >
           <b-card-text>
             A game of Wantotrip: Pro Edition typically lasts a full hour.
           </b-card-text>
-          <!-- <template #footer>
+          <template #footer>
             <em>Learn More</em>
-          </template> -->
+          </template>
         </b-card>
         <b-card
           title="450+ Questions"
@@ -80,7 +81,7 @@
       </div>
     </div>
     <div class="wantotrip-setup">
-      <h2>How it Works</h2>
+      <h2>Game Objectives</h2>
       <p>
         Upon connecting to the platform, participants are randomly split into
         teams of 5. Team members will have to work together to explore the
@@ -146,8 +147,11 @@
       </div>
       <img src="/undraw1.svg" alt="" />
     </div>
-    <bookingModal v-if="showModal == true" @closingModal="modalClosed" />
-    <infoScreen />
+    <bookingModal v-if="showModal" @closingModal="modalClosed" />
+    <infoScreen
+      v-if="showGameStructure"
+      @closingGameStructure="gameStructureClosed"
+    />
   </div>
 </template>
 <script>
@@ -161,11 +165,15 @@ export default {
   data() {
     return {
       showModal: false,
+      showGameStructure: false,
     }
   },
   methods: {
     modalClosed(value) {
       this.showModal = false
+    },
+    gameStructureClosed(value) {
+      this.showGameStructure = false
     },
   },
 }
@@ -428,7 +436,8 @@ h2 {
     padding-top: 3rem;
     padding-bottom: 3rem;
     .jumbotron-contents {
-      width: 90%;
+      width: 95%;
+      margin-left: 0;
       .secondary-button {
         font-size: 16px;
       }
